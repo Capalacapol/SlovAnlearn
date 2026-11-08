@@ -1,0 +1,250 @@
+/* SlovAnLearn light/dark theme switcher.
+   IMPORTANT: Load AFTER style.css and slovanlearn-theme.css.
+   Dark overrides intentionally keep lesson diagrams on a pale paper background
+   so dark SVG annotation labels do not become invisible. */
+
+/* Accessible header control - inherits SlovAnLearn branding in both modes */
+.theme-toggle {
+  display: inline-flex; align-items: center; justify-content: center; gap: 7px;
+  min-height: 35px; padding: 8px 10px; border: 1px solid #d8e3f3;
+  border-radius: 9px; background: #f0f5fc; color: #194778;
+  font: 750 11px/1.2 var(--font, sans-serif); white-space: nowrap;
+  cursor: pointer; transition: background-color .18s, color .18s, border-color .18s;
+}
+.theme-toggle:hover { background: #dfeafa; border-color: #9cbce7; }
+.theme-toggle:focus-visible { outline: 3px solid #ee1c25; outline-offset: 3px; }
+.theme-toggle-icon { display: inline-block; min-width: 17px; font-size: 18px; line-height: 1; text-align: center; }
+.theme-toggle-label { font-size: 11px; }
+
+/* Theme tokens */
+html[data-atlas-theme="dark"] {
+  color-scheme: dark;
+  --bg: #0a1220;
+  --paper: #121f33;
+  --navy: #ebf2ff;
+  --ink: #dfeaff;
+  --muted: #aabbd3;
+  --green: #8ebeff;
+  --teal: #192b44;
+  --line: #30415b;
+  --orange: #ff7787;
+  --purple: #abc8ff;
+}
+html[data-atlas-theme="dark"] body { background: var(--bg); color: var(--ink); }
+html[data-atlas-theme="dark"] h1,
+html[data-atlas-theme="dark"] h2,
+html[data-atlas-theme="dark"] h3,
+html[data-atlas-theme="dark"] h4 { color: #ebf2ff; }
+html[data-atlas-theme="dark"] a { color: #a2c9ff; }
+html[data-atlas-theme="dark"] a:hover { color: #d0e4ff; }
+
+/* Main shell, navigation and branding */
+html[data-atlas-theme="dark"] aside#sidebar {
+  background: #101b2d; border-color: #2d3a52;
+  scrollbar-color: #465a7a #101b2d;
+}
+html[data-atlas-theme="dark"] header {
+  background: #111d30f5; border-color: #30425e;
+  border-top-color: #f05465; box-shadow: 0 1px 0 #0a1325;
+}
+html[data-atlas-theme="dark"] .brand-name,
+html[data-atlas-theme="dark"] .brand,
+html[data-atlas-theme="dark"] .header-title { color: #f2f6ff; }
+html[data-atlas-theme="dark"] .brand-name small,
+html[data-atlas-theme="dark"] .brand small,
+html[data-atlas-theme="dark"] .course-label,
+html[data-atlas-theme="dark"] .nav-group { color: #9aafcb; }
+html[data-atlas-theme="dark"] .brand-image { background: #f9fbff; border-radius: 8px; }
+html[data-atlas-theme="dark"] .edition,
+html[data-atlas-theme="dark"] .header-pill { background: #1e304a; border-color: #304766; color: #bbd2f0; }
+html[data-atlas-theme="dark"] .course-picker {
+  background: #19263b; border-color: #364962; border-top-color: #559dff; color: #e0edff;
+}
+html[data-atlas-theme="dark"] .course-picker select { color: #e0edff; background: #19263b; }
+html[data-atlas-theme="dark"] .main-nav a,
+html[data-atlas-theme="dark"] .nav-topic { color: #bed0eb; }
+html[data-atlas-theme="dark"] .main-nav a:hover,
+html[data-atlas-theme="dark"] .main-nav a.active,
+html[data-atlas-theme="dark"] .nav-topic:hover,
+html[data-atlas-theme="dark"] .nav-topic.active {
+  background: #203653; color: #e8f2ff;
+}
+html[data-atlas-theme="dark"] .main-nav a span { color: #a7c8f6; }
+html[data-atlas-theme="dark"] .main-nav a b,
+html[data-atlas-theme="dark"] .nav-topic small { background: #263a53; color: #e0edff; }
+html[data-atlas-theme="dark"] .side-callout {
+  background: #1a2a42; border-color: #31445f; border-top-color: #fa6b7b; color: #b6c5db;
+}
+html[data-atlas-theme="dark"] .side-callout strong { color: #f0f5ff; }
+html[data-atlas-theme="dark"] .side-callout>span { color: #ff8293; }
+html[data-atlas-theme="dark"] .search-wrap input {
+  background: #1a2a40; border-color: #37516b; color: #f3f7ff;
+}
+html[data-atlas-theme="dark"] .search-wrap input::placeholder,
+html[data-atlas-theme="dark"] input::placeholder,
+html[data-atlas-theme="dark"] textarea::placeholder { color: #94a8c2; }
+html[data-atlas-theme="dark"] .search-wrap>span,
+html[data-atlas-theme="dark"] .search-wrap kbd { color: #a1b7d2; }
+html[data-atlas-theme="dark"] .tutor-trigger {
+  background: #213b5a; color: #c5ddff; border-color: #35557b;
+}
+html[data-atlas-theme="dark"] .theme-toggle {
+  color: #ffe3ae; background: #253653; border-color: #48617c;
+}
+html[data-atlas-theme="dark"] .theme-toggle:hover { background: #34496b; }
+html[data-atlas-theme="dark"] .account-btn,
+html[data-atlas-theme="dark"] .btn.primary { background: #2862bb; border-color: #3475cd; color: white; }
+html[data-atlas-theme="dark"] .icon-btn { color: #c6d6ef; }
+html[data-atlas-theme="dark"] .breadcrumb,
+html[data-atlas-theme="dark"] .breadcrumb a { color: #abbcd3; }
+
+/* Cards, study topics and lesson content */
+html[data-atlas-theme="dark"] .card,
+html[data-atlas-theme="dark"] .article-section,
+html[data-atlas-theme="dark"] .lesson-link,
+html[data-atlas-theme="dark"] .choice,
+html[data-atlas-theme="dark"] .btn,
+html[data-atlas-theme="dark"] .panel,
+html[data-atlas-theme="dark"] .qcard {
+  background: #142137; border-color: #34465f; color: #dce8fb;
+  box-shadow: 0 6px 24px #02081525;
+}
+html[data-atlas-theme="dark"] .btn.primary,
+html[data-atlas-theme="dark"] .account-btn { background: #2862bb; color: #fff; }
+html[data-atlas-theme="dark"] .btn:hover,
+html[data-atlas-theme="dark"] .lesson-link:hover,
+html[data-atlas-theme="dark"] .choice:hover,
+html[data-atlas-theme="dark"] .group-topic:hover { background: #213655; }
+html[data-atlas-theme="dark"] .stat strong,
+html[data-atlas-theme="dark"] .qcard h3,
+html[data-atlas-theme="dark"] .video-card strong { color: #ecf4ff; }
+html[data-atlas-theme="dark"] .stat small,
+html[data-atlas-theme="dark"] .section-head p,
+html[data-atlas-theme="dark"] .group-heading small,
+html[data-atlas-theme="dark"] .topic-count,
+html[data-atlas-theme="dark"] .progress-topic small { color: #aec1dc; }
+html[data-atlas-theme="dark"] .stat-icon,
+html[data-atlas-theme="dark"] .group-icon,
+html[data-atlas-theme="dark"] .topic-number,
+html[data-atlas-theme="dark"] .pill,
+html[data-atlas-theme="dark"] .pill.hl,
+html[data-atlas-theme="dark"] .pill.soft,
+html[data-atlas-theme="dark"] .pill.orange,
+html[data-atlas-theme="dark"] .article-section ol li:before {
+  background: #233b5c; border-color: #3c5474; color: #c9e2ff;
+}
+html[data-atlas-theme="dark"] .stat:nth-child(2) .stat-icon,
+html[data-atlas-theme="dark"] .warning { background: #3b2637; color: #ffb5bb; }
+html[data-atlas-theme="dark"] .group-topic {
+  border-top-color: #2f405b; color: #c4d1e9;
+}
+html[data-atlas-theme="dark"] .group-topic .arrow { color: #a5bce0; }
+html[data-atlas-theme="dark"] .topic-hero {
+  background: linear-gradient(110deg,#1b2b45,#18243a); border-color: #3a4d69;
+}
+html[data-atlas-theme="dark"] .topic-hero p,
+html[data-atlas-theme="dark"] .article .intro,
+html[data-atlas-theme="dark"] .lede,
+html[data-atlas-theme="dark"] .article-section p,
+html[data-atlas-theme="dark"] .article-section ul,
+html[data-atlas-theme="dark"] .article-section ol li,
+html[data-atlas-theme="dark"] .skill-card p,
+html[data-atlas-theme="dark"] .skill-card li,
+html[data-atlas-theme="dark"] .paper-card p,
+html[data-atlas-theme="dark"] .video-card p { color: #bbcbe2; }
+html[data-atlas-theme="dark"] .article-section strong,
+html[data-atlas-theme="dark"] .notice strong,
+html[data-atlas-theme="dark"] .solution strong,
+html[data-atlas-theme="dark"] .auth-status strong,
+html[data-atlas-theme="dark"] .warning strong { color: #f0f6ff; }
+html[data-atlas-theme="dark"] .article-section figcaption { color: #4d5d73; }
+html[data-atlas-theme="dark"] .article-section figure {
+  background: #f7f9ff; border-radius: 10px; padding: 12px;
+}
+html[data-atlas-theme="dark"] .worked,
+html[data-atlas-theme="dark"] .notice,
+html[data-atlas-theme="dark"] .solution,
+html[data-atlas-theme="dark"] .skill-example,
+html[data-atlas-theme="dark"] .auth-status,
+html[data-atlas-theme="dark"] .tutor-note,
+html[data-atlas-theme="dark"] .formula,
+html[data-atlas-theme="dark"] .answer {
+  background: #203451; border-color: #3a5476; color: #d7e7ff;
+}
+html[data-atlas-theme="dark"] .formula { border-left-color: #ff7387; }
+html[data-atlas-theme="dark"] .warning { border-left-color: #fa697e; }
+html[data-atlas-theme="dark"] .progressbar { background: #30435d; }
+html[data-atlas-theme="dark"] .progressbar span { background: #619bff; }
+html[data-atlas-theme="dark"] .toc a {
+  color: #b5c8e4; border-left-color: #39516e;
+}
+html[data-atlas-theme="dark"] .toc a:hover { background: #203654; color: #e2f0ff; }
+html[data-atlas-theme="dark"] .video-card {
+  background: #192c46; border-color: #37516d;
+}
+html[data-atlas-theme="dark"] .choice>span:first-child { background: #2d496b; color: #e8f1ff; }
+html[data-atlas-theme="dark"] .choice.selected {
+  background: #243f63; border-color: #83b8ff; color: #eaf3ff;
+}
+html[data-atlas-theme="dark"] .choice.correct {
+  background: #1c4a43; border-color: #6bd2a9; color: #e6fff6;
+}
+html[data-atlas-theme="dark"] .choice.incorrect {
+  background: #53303c; border-color: #ed8793; color: #ffe1e5;
+}
+html[data-atlas-theme="dark"] .field label,
+html[data-atlas-theme="dark"] .field>span,
+html[data-atlas-theme="dark"] .question-note { color: #b7c9e1; }
+html[data-atlas-theme="dark"] .field input,
+html[data-atlas-theme="dark"] .field select,
+html[data-atlas-theme="dark"] .field textarea,
+html[data-atlas-theme="dark"] .test-inputscore,
+html[data-atlas-theme="dark"] #loginEmail,
+html[data-atlas-theme="dark"] #loginCode,
+html[data-atlas-theme="dark"] #tutorInput {
+  background: #101e33; color: #f0f6ff; border: 1px solid #415875;
+}
+html[data-atlas-theme="dark"] .field select option { color: #f0f6ff; background: #101e33; }
+html[data-atlas-theme="dark"] .topic-check { color: #c5d6ea; }
+html[data-atlas-theme="dark"] .timebar { background: #172d4c; border: 1px solid #3b577d; }
+html[data-atlas-theme="dark"] .timebar strong { color: white; }
+html[data-atlas-theme="dark"] .score-big { color: #8bb6ff; }
+html[data-atlas-theme="dark"] .chat-message { background: #223a59; color: #e2eefe; }
+html[data-atlas-theme="dark"] .chat-message.user { background: #315e9e; color: white; }
+html[data-atlas-theme="dark"] .chat-message.error { background: #50303d; color: #ffbac3; }
+html[data-atlas-theme="dark"] footer { color: #9eb0c9; }
+html[data-atlas-theme="dark"] th { color: #bed1e9; }
+html[data-atlas-theme="dark"] td { color: #d9e7fb; border-color: #30435e; }
+html[data-atlas-theme="dark"] dialog { background: #132137; color: #ebf2ff; border: 1px solid #405672; }
+html[data-atlas-theme="dark"] .dialog-head { border-color: #374b66; }
+html[data-atlas-theme="dark"] dialog::backdrop { background: #030912be; }
+html[data-atlas-theme="dark"] #toast { background: #244c89; color: white; }
+html[data-atlas-theme="dark"] .hero { background: linear-gradient(118deg,#061c42 0%,#10386f 100%); }
+html[data-atlas-theme="dark"] .hero h1,
+html[data-atlas-theme="dark"] .hero p,
+html[data-atlas-theme="dark"] .hero .eyebrow { color: #f1f5ff; }
+html[data-atlas-theme="dark"] .hero .btn.light { background: #f9fbff; border-color: #f9fbff; color: #143e82; }
+html[data-atlas-theme="dark"] .hero .btn.outline-light { background: #172f54; color: #eff6ff; border-color: #7193c3; }
+/* The logo and scientific diagrams use light backgrounds intentionally for readability. */
+html[data-atlas-theme="dark"] .hero-logo-card,
+html[data-atlas-theme="dark"] .hero-logo-card img { background: #fff; color: #1a365e; }
+html[data-atlas-theme="dark"] .hero-logo-card span { color: #14498e; }
+@media (max-width: 840px) {
+  .theme-toggle { min-width: 38px; min-height: 36px; padding: 8px; }
+  .theme-toggle-label { display: none; }
+}
+@media (max-width: 430px) {
+  .header-right { gap: 5px; }
+  .theme-toggle { min-width: 34px; min-height: 34px; padding: 5px; }
+  .search-wrap { width: min(26vw, 135px); }
+  .account-btn { padding: 8px 7px; }
+}
+@media print {
+  .theme-toggle { display: none !important; }
+  html[data-atlas-theme="dark"] body { background: white !important; color: #1b293a !important; }
+  html[data-atlas-theme="dark"] .article-section,
+  html[data-atlas-theme="dark"] .card,
+  html[data-atlas-theme="dark"] .worked { background: white !important; color: #1b293a !important; }
+  html[data-atlas-theme="dark"] .article-section p,
+  html[data-atlas-theme="dark"] .article-section li { color: #252d40 !important; }
+}

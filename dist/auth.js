@@ -65,14 +65,36 @@
       const rows = await request('/rest/v1/study_progress?select=payload,updated_at&user_id=eq.' + encodeURIComponent(s.user.id), {}, s.access_token);
       return rows[0] || null;
     },
-    async saveProgress(data) {
+    // expectedUpdatedAt: undefined = legacy manual upsert;
+    // null = insert only if the account has no row;
+    // timestamp = update only if nobody else updated the row since we read it.
+    async saveProgress(data, expectedUpdatedAt) {
       const s = await requireSession();
       if (JSON.stringify(data).length > 200000) throw new Error('Study data is too large to sync.');
-      const rows = await request('/rest/v1/study_progress?on_conflict=user_id', {
-        method:'POST', headers:{Prefer:'resolution=merge-duplicates,return=representation'},
-        body:JSON.stringify({user_id:s.user.id, payload:data, updated_at:new Date().toISOString()})
-      }, s.access_token);
-      return rows[0] || null;
+      const revision = new Date().toISOString();
+      const body = JSON.stringify({user_id:s.user.id, payload:data, updated_at:revision});
+      let rows;
+      if (expectedUpdatedAt === undefined) {
+        rows = await request('/rest/v1/study_progress?on_conflict=user_id', {
+          method:'POST', headers:{Prefer:'resolution=merge-duplicates,return=representation'}, body
+        }, s.access_token);
+      } else if (expectedUpdatedAt === null) {
+        rows = await request('/rest/v1/study_progress?on_conflict=user_id', {
+          method:'POST', headers:{Prefer:'resolution=ignore-duplicates,return=representation'}, body
+        }, s.access_token);
+      } else {
+        rows = await request('/rest/v1/study_progress?user_id=eq.' + encodeURIComponent(s.user.id) +
+          '&updated_at=eq.' + encodeURIComponent(expectedUpdatedAt), {
+          method:'PATCH', headers:{Prefer:'return=representation'},
+          body:JSON.stringify({payload:data, updated_at:revision})
+        }, s.access_token);
+      }
+      if (!rows?.length) {
+        const error = new Error('Progress changed in another browser. Open My account to choose which version to keep.');
+        error.code = 'CLOUD_CONFLICT';
+        throw error;
+      }
+      return rows[0];
     },
     async ask(messages, context = '') {
       const s = await requireSession();

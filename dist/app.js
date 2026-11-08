@@ -17,7 +17,12 @@ const topicPct=t=>{const a=t.sections.filter(visible);return a.length?Math.round
 const bars=p=>`<div class="progressbar"><span style="width:${Math.min(100,Math.max(0,p))}%"></span></div>`;
 const pill=(s,c='')=>`<span class="pill ${c}">${esc(s)}</span>`;
 function toast(msg){const t=$('#toast');t.textContent=msg;t.classList.add('show');clearTimeout(toast.timer);toast.timer=setTimeout(()=>t.classList.remove('show'),3500)}
-function save(){try{localStorage.setItem(KEY,JSON.stringify(progress))}catch{toast('Browser storage is unavailable. Export your progress before leaving.')}}
+// Local progress is always written first. Cloud writes are debounced and conditional.
+function save(){
+  try{localStorage.setItem(KEY,JSON.stringify(progress))}
+  catch{toast('Browser storage is unavailable. Export your progress before leaving.')}
+  scheduleAutoSync();
+}
 const crumb=(p=[])=>`<div class="breadcrumb"><a href="#home">Chemistry ${progress.level}</a>${p.map(x=>`<span>›</span>${typeof x==='string'?`<span>${esc(x)}</span>`:`<a href="${x.href}">${esc(x.title)}</a>`}`).join('')}</div>`;
 function head(k,h,p){return `${crumb([h])}<span class="eyebrow">${esc(k)}</span><h1>${esc(h)}</h1><p class="lede">${p}</p>`}
 function iconMolecule(){return `<svg viewBox="0 0 480 390" aria-hidden="true"><circle cx="285" cy="180" r="155" fill="none" stroke="#8cc2b633"/><circle cx="285" cy="180" r="200" fill="none" stroke="#8cc2b622"/><path d="M160 202L276 97L373 192L281 296L160 202" fill="none" stroke="#7ba59f" stroke-width="10"/><path d="M276 97L281 296M160 202L373 192" stroke="#749d9633" stroke-width="3"/><circle cx="160" cy="202" r="36" fill="#b5d8c7"/><circle cx="276" cy="97" r="47" fill="#94b9ae"/><circle cx="373" cy="192" r="31" fill="#e5ba92"/><circle cx="281" cy="296" r="45" fill="#85b7b4"/><circle cx="150" cy="190" r="9" fill="#ecf6e8" opacity=".65"/><circle cx="262" cy="81" r="13" fill="#daeee2" opacity=".5"/><circle cx="273" cy="283" r="10" fill="#d7f2e9" opacity=".5"/><path d="M411 54v23M400 66h23M93 106v16M85 114h16" stroke="#afd6c8" stroke-width="2"/></svg>`}
@@ -63,14 +68,167 @@ function lessonContext(s){return `${s.id} (${s.hl?'HL extension':'SL and HL'}): 
 function setChatContent(){const chat=$('#chat');chat.replaceChildren();state.messages.forEach(m=>{const div=document.createElement('div');div.className='chat-message '+(m.role==='user'?'user':'');div.textContent=m.content;chat.append(div)});chat.scrollTop=chat.scrollHeight;}
 function openTutor(context='',label='General chemistry questions'){state.tutorContext=context;$('#tutorContext').textContent='Study context: '+label;const chat=$('#chat');if(!state.cloudReady){chat.innerHTML='<div class="tutor-note"><strong>AI tutor integration is ready for setup.</strong><br>To receive AI answers, the website owner must connect Supabase and deploy the tutor function with a server-held model API key. See DEPLOYMENT.md in the GitHub package. This preview does not simulate AI answers.<br><br>You can still read every lesson, watch videos, practise questions and build tests.</div>';}else if(!state.session){chat.innerHTML='<div class="tutor-note">Sign in with your email code before using the AI tutor. Your current lesson or question will be supplied as context when you send a message.</div>';}else setChatContent();$('#sendTutor').disabled=!state.cloudReady||!state.session;$('#tutorInput').disabled=!state.cloudReady||!state.session;$('#tutorDialog').showModal();}
 async function account(){const body=$('#accountBody');if(!state.cloudReady){body.innerHTML='<div class="auth-status"><strong>Local study mode is working.</strong></div><p>Cloud login needs the owner’s Supabase configuration. It has not been connected in this package. Your study progress currently saves in this browser.</p><p>The included setup guide explains how to enable real email-code accounts, per-user saved progress and the AI tutor on your GitHub-hosted site.</p><div class="setup-link">Open <strong>DEPLOYMENT.md</strong> in the source ZIP.</div><div class="row" style="margin-top:18px"><button class="btn" data-close="accountDialog">Keep studying</button><button class="btn primary" data-action="export">Export my progress</button></div>';}
-else if(state.session){body.innerHTML=`<p>Signed in as <strong>${esc(state.session.user?.email||'student')}</strong></p><div class="auth-status">Cloud sync is manual so that one device never silently overwrites another. Choose the direction below.</div><div class="row"><button class="btn primary" data-action="uploadcloud">Save this device to cloud</button><button class="btn" data-action="downloadcloud">Load cloud progress</button></div><p style="margin-top:16px">Saving replaces your account’s cloud document. Loading replaces this browser’s study record after confirmation. On a shared computer, sign out and clear local progress before leaving.</p><button class="btn" data-action="signout">Sign out & clear this device</button>`;}
+else if(state.session){body.innerHTML=`<p>Signed in as <strong>${esc(state.session.user?.email||'student')}</strong></p><div class="auth-status">Automatic cloud saving is enabled when the copies agree. If you see a conflict, choose which copy to keep.</div><p id="cloudSyncStatus" class="auth-status" role="status">${esc(autoSync.status)}</p><div class="row"><button class="btn primary" data-action="uploadcloud">Save this device to cloud now</button><button class="btn" data-action="downloadcloud">Load cloud progress</button></div><p style="margin-top:16px">These are manual recovery options. Saving replaces your cloud copy; loading replaces this browser’s progress after confirmation. On a shared computer, sign out and clear local progress before leaving.</p><button class="btn" data-action="signout">Sign out & clear this device</button>`;}
 else body.innerHTML='<p>Receive a one-time sign-in code by email. Passwords are not stored in this website.</p><form id="loginForm" class="auth-form"><div class="field"><label for="loginEmail">Email address</label><input id="loginEmail" type="email" autocomplete="email" required placeholder="you@example.com"></div><button class="btn primary" type="submit">Email a sign-in code →</button></form><form id="verifyForm" class="auth-form" style="margin-top:20px" hidden><div class="field"><label for="loginCode">Code from your email</label><input id="loginCode" inputmode="numeric" autocomplete="one-time-code" required maxlength="10"></div><button class="btn primary" type="submit">Verify code & sign in</button></form><p id="authMessage" style="margin-top:13px;font-size:11px"></p>';if(!$('#accountDialog').open)$('#accountDialog').showModal();}
 function validatedProgress(raw){if(!raw||typeof raw!=='object'||Array.isArray(raw))throw new Error('Invalid study record.');const out={level:raw.level==='SL'?'SL':'HL',done:{},results:{},stars:{},drafts:{},tests:[],activeTest:null};for(const s of LESSONS)if(raw.done?.[s.id]===true)out.done[s.id]=true;for(const q of QUESTIONS){const r=raw.results?.[q.id];if(r&&Number.isInteger(r.score)&&r.score>=0&&r.score<=q.marks)out.results[q.id]={score:r.score,at:Number(r.at)||Date.now()};if(raw.stars?.[q.id]===true)out.stars[q.id]=true;if(typeof raw.drafts?.[q.id]==='string')out.drafts[q.id]=raw.drafts[q.id].slice(0,8000);}if(Array.isArray(raw.tests))out.tests=raw.tests.filter(t=>t&&typeof t.id==='string'&&/^[A-Za-z0-9-]{1,80}$/.test(t.id)&&Array.isArray(t.ids)&&t.ids.length<=40&&t.ids.every(id=>!!byQ(id))&&t.answers&&typeof t.answers==='object'&&t.scores&&typeof t.scores==='object'&&Object.entries(t.scores).every(([id,v])=>t.ids.includes(id)&&Number.isInteger(v)&&v>=0&&v<=byQ(id).marks)).slice(0,20);return out;}
 function resetLocal(){Object.assign(progress,{level:progress.level,done:{},results:{},stars:{},drafts:{},tests:[],activeTest:null});save();state.chosen={};state.revealed={};}
+
+// ---- Automatic, account-isolated progress synchronization -----------------
+// After the first sign-in, progress is saved automatically about 1.2s after
+// the most recent change. If another device writes first, this one refuses to
+// overwrite it until the student chooses which progress to keep.
+const SYNC_SNAPSHOT_KEY='chemistry-atlas-sync-snapshot-v1';
+const autoSync={ready:false,busy:false,timer:null,retryTimer:null,userId:null,revision:null,synced:null,status:'Local study mode',stopped:false};
+function meaningfulProgress(p){
+  return p.level==='SL'||Object.values(p.done||{}).some(Boolean)||
+    Object.keys(p.results||{}).length>0||Object.values(p.stars||{}).some(Boolean)||
+    Object.values(p.drafts||{}).some(x=>typeof x==='string'&&x.trim())||
+    (p.tests||[]).length>0||!!p.activeTest;
+}
+function readSyncSnapshot(){
+  try{const m=JSON.parse(localStorage.getItem(SYNC_SNAPSHOT_KEY)||'null');
+    return m&&typeof m.userId==='string'&&typeof m.payload==='string'?m:null;}
+  catch{return null;}
+}
+function syncStatus(label){
+  autoSync.status=label;
+  const status=$('#cloudSyncStatus');if(status)status.textContent=label;
+}
+function cancelSync(label){
+  autoSync.ready=false;
+  clearTimeout(autoSync.timer);clearTimeout(autoSync.retryTimer);
+  autoSync.timer=null;autoSync.retryTimer=null;
+  if(label)syncStatus(label);
+}
+function writeSyncSnapshot(userId,revision,payload){
+  // Store the last *confirmed* cloud copy for conflict detection at next login.
+  try{localStorage.setItem(SYNC_SNAPSHOT_KEY,JSON.stringify({userId,revision,payload}))}
+  catch{ /* The next visit will ask which copy to use; local progress remains. */ }
+}
+function syncMarkRemote(row, payload){
+  autoSync.revision=row?.updated_at||null;
+  autoSync.synced=payload;
+  writeSyncSnapshot(autoSync.userId,autoSync.revision,payload);
+  autoSync.ready=true;
+  syncStatus('Automatically saved to cloud');
+}
+function adoptCloud(row, incoming){
+  // Keep the remote row as the agreed starting point; do not upload the old local
+  // record during the replacement (especially important on a shared browser).
+  cancelSync();
+  Object.assign(progress,incoming);
+  save();rerender();
+  syncMarkRemote(row,JSON.stringify(progress));
+}
+function scheduleAutoSync(delay=1200){
+  if(!autoSync.ready||!state.session||state.session.user?.id!==autoSync.userId)return;
+  clearTimeout(autoSync.timer);
+  syncStatus('Saving changes automatically…');
+  autoSync.timer=setTimeout(flushAutoSync,delay);
+}
+async function flushAutoSync(){
+  if(!autoSync.ready||autoSync.busy||!state.session||state.session.user?.id!==autoSync.userId)return;
+  const snapshot=JSON.stringify(progress);
+  if(snapshot===autoSync.synced){syncStatus('Automatically saved to cloud');return;}
+  autoSync.busy=true;
+  let succeeded=false;
+  const userId=autoSync.userId;
+  syncStatus('Saving to cloud…');
+  try{
+    const row=await AtlasCloud.saveProgress(JSON.parse(snapshot),autoSync.revision);
+    if(userId!==autoSync.userId||!state.session||state.session.user.id!==userId)return;
+    autoSync.revision=row.updated_at;
+    autoSync.synced=snapshot;
+    succeeded=true;
+    writeSyncSnapshot(userId,row.updated_at,snapshot);
+    syncStatus('Automatically saved to cloud');
+  }catch(error){
+    if(error.code==='CLOUD_CONFLICT'){
+      cancelSync('Sync paused: another device changed progress. Choose a version in My account.');
+      toast('Cloud conflict. Open My account to choose which progress to keep.');
+    }else{
+      syncStatus('Saved on this device; cloud retry pending.');
+      clearTimeout(autoSync.retryTimer);
+      autoSync.retryTimer=setTimeout(flushAutoSync,20000);
+    }
+  }finally{
+    autoSync.busy=false;
+    if(succeeded&&autoSync.ready&&autoSync.synced!==JSON.stringify(progress))scheduleAutoSync();
+  }
+}
+async function startAutoSync(){
+  if(!state.cloudReady||!state.session?.user?.id)return;
+  cancelSync('Checking cloud progress…');
+  const userId=state.session.user.id;
+  autoSync.userId=userId;
+  let row;
+  try{row=await AtlasCloud.loadProgress()}
+  catch(error){
+    syncStatus('Cloud unavailable. Progress remains on this device; retry when online.');
+    toast('Cloud progress could not load: '+error.message);
+    clearTimeout(autoSync.retryTimer);
+    autoSync.retryTimer=setTimeout(()=>{if(state.session?.user?.id===userId&&autoSync.status.includes('unavailable'))startAutoSync()},20000);
+    return;
+  }
+  if(state.session?.user?.id!==userId)return;
+  const local=JSON.stringify(progress);
+  const memo=readSyncSnapshot();
+  const sameUser=memo?.userId===userId;
+  if(!row){
+    if(memo&&!sameUser&&meaningfulProgress(progress)){
+      syncStatus('This browser has progress from another account. Use My account to choose.');
+      return;
+    }
+    autoSync.revision=null;
+    autoSync.synced=null;
+    autoSync.ready=true;
+    syncStatus('Auto sync enabled');
+    if(meaningfulProgress(progress))scheduleAutoSync(250);
+    return;
+  }
+  let incoming;
+  try{incoming=validatedProgress(row.payload)}
+  catch(error){syncStatus('Cloud record could not be read; this device was not overwritten.');return;}
+  const remote=JSON.stringify(row.payload);
+  if(remote===local){
+    syncMarkRemote(row,local);
+    return;
+  }
+  if(!meaningfulProgress(progress)||(sameUser&&memo.payload===local)){
+    adoptCloud(row,incoming);
+    return;
+  }
+  if(sameUser&&memo.payload===remote){
+    autoSync.revision=row.updated_at;
+    autoSync.synced=remote;
+    autoSync.ready=true;
+    scheduleAutoSync(250);
+    return;
+  }
+  // Unknown or independently edited browser copy: never erase either one
+  // without an explicit choice. Export a local backup before cloud replacement.
+  const chooseCloud=confirm('Two different progress records exist.\n\nOK = LOAD cloud progress on this device (a backup of local progress will download first).\n\nCancel = KEEP this device’s progress and pause automatic sync until you choose Save this device to cloud.');
+  if(chooseCloud){exportProgress();adoptCloud(row,incoming);}
+  else syncStatus('Sync paused. Open My account to choose which copy to keep.');
+}
+async function refreshAutoSync(){
+  if(!autoSync.ready||autoSync.busy||!state.session||JSON.stringify(progress)!==autoSync.synced)return;
+  const userId=autoSync.userId;
+  try{
+    const row=await AtlasCloud.loadProgress();
+    if(!row||userId!==autoSync.userId||!autoSync.ready||autoSync.busy||JSON.stringify(progress)!==autoSync.synced)return;
+    if(row.updated_at!==autoSync.revision){
+      adoptCloud(row,validatedProgress(row.payload));
+      toast('Newer progress loaded from your other device.');
+    }
+  }catch{ /* Keep existing progress and retry during the next focus/online event. */ }
+}
+// ---- End automatic synchronization --------------------------------------
+
 function exportProgress(){const data=new Blob([JSON.stringify({format:'chemistry-atlas-progress',version:1,exportedAt:new Date().toISOString(),progress},null,2)],{type:'application/json'}),u=URL.createObjectURL(data),a=document.createElement('a');a.href=u;a.download='Chemistry_Atlas_Progress.json';a.click();setTimeout(()=>URL.revokeObjectURL(u),1000);toast('Progress backup exported.');}
-async function click(e){const scroll=e.target.closest('[data-scroll]');if(scroll){e.preventDefault();document.getElementById(scroll.dataset.scroll)?.scrollIntoView({behavior:'smooth'});return;}const closer=e.target.closest('[data-close]');if(closer){document.getElementById(closer.dataset.close)?.close();return;}const banktopic=e.target.closest('[data-banktopic]');if(banktopic){state.filters.topic=banktopic.dataset.banktopic;state.filters.level='all';state.filters.status='all';if(state.page==='bank')rerender();}const asklesson=e.target.closest('[data-asklesson]');if(asklesson){const s=byLesson(asklesson.dataset.asklesson);state.messages=[];openTutor(lessonContext(s),s.id+' · '+s.title);return;}const askq=e.target.closest('[data-askq]');if(askq){const q=byQ(askq.dataset.askq);state.messages=[];openTutor(`${q.topic} ${q.paper}\n${q.text}\n${(q.options||[]).join('\n')}\nOriginal marking guidance:\n${q.scheme.join('\n')}`,q.id+' · '+q.topic);return;}const choice=e.target.closest('[data-choice]');if(choice){const id=choice.dataset.choice,op=Number(choice.dataset.opt),q=byQ(id);if(choice.dataset.test==='1'){if(progress.activeTest){progress.activeTest.answers[id]=op;save();}}else{state.chosen[id]=op;state.revealed[id]=true;progress.results[id]={score:op===q.correct?q.marks:0,at:Date.now()};save();}rerender();return;}const a=e.target.closest('[data-action]');if(!a)return;const id=a.dataset.id;try{switch(a.dataset.action){case'done':progress.done[id]=!progress.done[id];save();rerender();toast(progress.done[id]?'Lesson marked as studied.':'Lesson unmarked.');break;case'print':print();break;case'reveal':state.revealed[id]=!state.revealed[id];rerender();break;case'star':progress.stars[id]=!progress.stars[id];save();rerender();break;case'more':state.limit+=18;rerender();break;case'savescore':{const inp=$(`[data-selfmark="${id}"]`);progress.results[id]={score:Number(inp.value),at:Date.now()};save();toast('Practice marks saved.');break;}case'clearfilters':Object.keys(state.filters).forEach(k=>state.filters[k]='all');rerender();break;case'selectall':$$('#testForm [name="topics"]').forEach(c=>c.checked=true);break;case'selectnone':$$('#testForm [name="topics"]').forEach(c=>c.checked=false);break;case'discardtest':if(confirm('Discard this unfinished test?')){progress.activeTest=null;save();rerender();}break;case'submittest':if(confirm('Finish this test and review your answers?'))finishTest();break;case'export':exportProgress();break;case'resetprogress':if(confirm('Clear the local study record? Export first if you want a backup. This does not delete your cloud document.')){resetLocal();rerender();toast('Local progress reset.');}break;case'setHL':progress.level='HL';save();rerender();break;case'account':account();break;case'uploadcloud':if(confirm('Replace your cloud study document with this device’s progress?')){a.disabled=true;await AtlasCloud.saveProgress(progress);toast('Saved this device’s progress to your account.');a.disabled=false;}break;case'downloadcloud':{a.disabled=true;const row=await AtlasCloud.loadProgress();a.disabled=false;if(!row){toast('Your account has no saved progress yet. Save this device first.');break;}const incoming=validatedProgress(row.payload);if(confirm('Replace this browser’s progress with your cloud document?')){Object.assign(progress,incoming);save();rerender();toast('Cloud progress loaded.');}break;}case'signout':await AtlasCloud.signOut();state.session=null;resetLocal();state.messages=[];$('#tutorInput').value='';$('#accountDialog').close();rerender();toast('Signed out. Local study record cleared from this device.');break;}}catch(error){a.disabled=false;toast(error.message||'That action could not be completed.');}}
-async function submit(e){if(e.target.id==='testForm')return startTest(e);if(e.target.id==='loginForm'){e.preventDefault();const email=$('#loginEmail').value.trim(),b=e.target.querySelector('button');b.disabled=true;try{await AtlasCloud.signIn(email);$('#verifyForm').hidden=false;$('#authMessage').textContent='Check your email for the code. The owner must configure email delivery and the code template.';}catch(err){$('#authMessage').textContent=err.message;}finally{b.disabled=false}return;}if(e.target.id==='verifyForm'){e.preventDefault();const b=e.target.querySelector('button');b.disabled=true;try{state.session=await AtlasCloud.verifyOtp($('#loginEmail').value.trim(),$('#loginCode').value);await account();navUI();toast('Signed in. Choose cloud sync direction in your account.');}catch(err){$('#authMessage').textContent=err.message;}finally{b.disabled=false}return;}if(e.target.id==='tutorForm'){e.preventDefault();if(!state.cloudReady||!state.session)return;const input=$('#tutorInput'),msg=input.value.trim();if(!msg)return;state.messages.push({role:'user',content:msg});input.value='';setChatContent();$('#sendTutor').disabled=true;try{const answer=await AtlasCloud.ask(state.messages.slice(-8),state.tutorContext);state.messages.push({role:'assistant',content:String(answer||'No answer was returned.')});setChatContent();}catch(err){const div=document.createElement('div');div.className='chat-message error';div.textContent=err.message;$('#chat').append(div);}finally{$('#sendTutor').disabled=false;}return;}}
+async function click(e){const scroll=e.target.closest('[data-scroll]');if(scroll){e.preventDefault();document.getElementById(scroll.dataset.scroll)?.scrollIntoView({behavior:'smooth'});return;}const closer=e.target.closest('[data-close]');if(closer){document.getElementById(closer.dataset.close)?.close();return;}const banktopic=e.target.closest('[data-banktopic]');if(banktopic){state.filters.topic=banktopic.dataset.banktopic;state.filters.level='all';state.filters.status='all';if(state.page==='bank')rerender();}const asklesson=e.target.closest('[data-asklesson]');if(asklesson){const s=byLesson(asklesson.dataset.asklesson);state.messages=[];openTutor(lessonContext(s),s.id+' · '+s.title);return;}const askq=e.target.closest('[data-askq]');if(askq){const q=byQ(askq.dataset.askq);state.messages=[];openTutor(`${q.topic} ${q.paper}\n${q.text}\n${(q.options||[]).join('\n')}\nOriginal marking guidance:\n${q.scheme.join('\n')}`,q.id+' · '+q.topic);return;}const choice=e.target.closest('[data-choice]');if(choice){const id=choice.dataset.choice,op=Number(choice.dataset.opt),q=byQ(id);if(choice.dataset.test==='1'){if(progress.activeTest){progress.activeTest.answers[id]=op;save();}}else{state.chosen[id]=op;state.revealed[id]=true;progress.results[id]={score:op===q.correct?q.marks:0,at:Date.now()};save();}rerender();return;}const a=e.target.closest('[data-action]');if(!a)return;const id=a.dataset.id;try{switch(a.dataset.action){case'done':progress.done[id]=!progress.done[id];save();rerender();toast(progress.done[id]?'Lesson marked as studied.':'Lesson unmarked.');break;case'print':print();break;case'reveal':state.revealed[id]=!state.revealed[id];rerender();break;case'star':progress.stars[id]=!progress.stars[id];save();rerender();break;case'more':state.limit+=18;rerender();break;case'savescore':{const inp=$(`[data-selfmark="${id}"]`);progress.results[id]={score:Number(inp.value),at:Date.now()};save();toast('Practice marks saved.');break;}case'clearfilters':Object.keys(state.filters).forEach(k=>state.filters[k]='all');rerender();break;case'selectall':$$('#testForm [name="topics"]').forEach(c=>c.checked=true);break;case'selectnone':$$('#testForm [name="topics"]').forEach(c=>c.checked=false);break;case'discardtest':if(confirm('Discard this unfinished test?')){progress.activeTest=null;save();rerender();}break;case'submittest':if(confirm('Finish this test and review your answers?'))finishTest();break;case'export':exportProgress();break;case'resetprogress':if(confirm('Clear the local study record? Export first if you want a backup. Automatic cloud saving will pause until you choose a sync direction.')){cancelSync('Sync paused after local reset. Load cloud progress or save this device manually.');resetLocal();rerender();toast('Local progress reset. Cloud data unchanged.');}break;case'setHL':progress.level='HL';save();rerender();break;case'account':account();break;case'uploadcloud':if(confirm('REPLACE your cloud progress with this device’s progress? Any other device’s unsynced work could be lost.')){a.disabled=true;cancelSync('Saving your chosen local copy…');const snapshot=JSON.stringify(progress);const row=await AtlasCloud.saveProgress(JSON.parse(snapshot));syncMarkRemote(row,snapshot);if(JSON.stringify(progress)!==snapshot)scheduleAutoSync();toast('Progress saved. Future changes will sync automatically.');a.disabled=false;}break;case'downloadcloud':{a.disabled=true;const row=await AtlasCloud.loadProgress();a.disabled=false;if(!row){toast('Your account has no saved progress yet. Save this device first.');break;}const incoming=validatedProgress(row.payload);if(confirm('Replace this browser’s progress with your cloud document? A backup of the current local progress will download first.')){exportProgress();adoptCloud(row,incoming);toast('Cloud progress loaded. Future changes will sync automatically.');}break;}case'signout':cancelSync('Local study mode');await AtlasCloud.signOut();state.session=null;autoSync.userId=null;localStorage.removeItem(SYNC_SNAPSHOT_KEY);resetLocal();state.messages=[];$('#tutorInput').value='';$('#accountDialog').close();rerender();toast('Signed out. Local study record cleared from this device.');break;}}catch(error){a.disabled=false;toast(error.message||'That action could not be completed.');}}
+async function submit(e){if(e.target.id==='testForm')return startTest(e);if(e.target.id==='loginForm'){e.preventDefault();const email=$('#loginEmail').value.trim(),b=e.target.querySelector('button');b.disabled=true;try{await AtlasCloud.signIn(email);$('#verifyForm').hidden=false;$('#authMessage').textContent='Check your email for the code. The owner must configure email delivery and the code template.';}catch(err){$('#authMessage').textContent=err.message;}finally{b.disabled=false}return;}if(e.target.id==='verifyForm'){e.preventDefault();const b=e.target.querySelector('button');b.disabled=true;try{state.session=await AtlasCloud.verifyOtp($('#loginEmail').value.trim(),$('#loginCode').value);await startAutoSync();await account();navUI();toast(autoSync.ready?'Signed in. Progress syncs automatically.':'Signed in. Check the sync message in My account.');}catch(err){$('#authMessage').textContent=err.message;}finally{b.disabled=false}return;}if(e.target.id==='tutorForm'){e.preventDefault();if(!state.cloudReady||!state.session)return;const input=$('#tutorInput'),msg=input.value.trim();if(!msg)return;state.messages.push({role:'user',content:msg});input.value='';setChatContent();$('#sendTutor').disabled=true;try{const answer=await AtlasCloud.ask(state.messages.slice(-8),state.tutorContext);state.messages.push({role:'assistant',content:String(answer||'No answer was returned.')});setChatContent();}catch(err){const div=document.createElement('div');div.className='chat-message error';div.textContent=err.message;$('#chat').append(div);}finally{$('#sendTutor').disabled=false;}return;}}
 async function change(e){if(e.target.id==='level'){if(progress.activeTest){e.target.value=progress.level;return toast('Finish or discard the current test before switching level.');}progress.level=e.target.value;state.filters.level='all';if(!topics().some(t=>t.id===state.filters.topic))state.filters.topic='all';save();rerender();return;}if(e.target.dataset.filter){state.filters[e.target.dataset.filter]=e.target.value;state.limit=18;rerender();return;}if(e.target.dataset.testscore){const r=progress.tests.find(t=>t.id===e.target.dataset.testscore),id=e.target.dataset.q;if(e.target.value==='')delete r.scores[id];else{r.scores[id]=Number(e.target.value);progress.results[id]={score:Number(e.target.value),at:Date.now()}}save();rerender();return;}if(e.target.id==='importProgress'){const file=e.target.files[0];if(!file)return;if(file.size>2000000)return toast('Backup is too large.');try{const data=JSON.parse(await file.text());if(data.format!=='chemistry-atlas-progress')throw new Error('This is not a Chemistry Atlas progress backup.');const incoming=validatedProgress(data.progress);if(confirm('Replace local progress with this backup?')){Object.assign(progress,incoming);save();rerender();toast('Backup imported. Unfinished sessions are not imported.');}}catch(err){toast(err.message)}return;}}
 function inputs(e){if(e.target.dataset.draft){const id=e.target.dataset.draft,val=e.target.value.slice(0,8000);if(e.target.dataset.test==='1'&&progress.activeTest)progress.activeTest.answers[id]=val;else progress.drafts[id]=val;save();}}
-async function init(){document.addEventListener('click',click);document.addEventListener('submit',submit);document.addEventListener('change',change);document.addEventListener('input',inputs);window.addEventListener('hashchange',route);$('#menu').addEventListener('click',()=>{$('#sidebar').classList.toggle('open');$('#overlay').classList.toggle('show')});$('#overlay').addEventListener('click',closeMenu);$('#accountBtn').addEventListener('click',account);$('#tutorBtn').addEventListener('click',()=>{if(state.page==='lesson'){const s=byLesson(state.id);openTutor(s?lessonContext(s):'',s?.title||'General chemistry')}else openTutor();});$('#sideTutor').addEventListener('click',()=>openTutor());$('#search').addEventListener('input',e=>{state.search=e.target.value.trim();if(state.search.length>1){state.page='search';render();}else if(!state.search)route();});document.addEventListener('keydown',e=>{if((e.metaKey||e.ctrlKey)&&e.key.toLowerCase()==='k'){e.preventDefault();$('#search').focus()}if(e.key==='Escape')closeMenu()});route();setInterval(()=>{const a=progress.activeTest;if(a){if(Date.now()>=a.deadline){finishTest(true);}else{const timer=$('#timer');if(timer)timer.textContent=timeRemaining(a);}}},1000);window.addEventListener('atlas-auth-change',async e=>{if(!e.detail.signedIn)state.session=null;navUI()});if(window.AtlasCloud)try{state.session=await AtlasCloud.init(window.ATLAS_CONFIG||{});state.cloudReady=AtlasCloud.isConfigured();navUI();}catch(err){state.cloudReady=AtlasCloud.isConfigured();toast('Cloud session: '+err.message)}}
+async function init(){document.addEventListener('click',click);document.addEventListener('submit',submit);document.addEventListener('change',change);document.addEventListener('input',inputs);window.addEventListener('hashchange',route);$('#menu').addEventListener('click',()=>{$('#sidebar').classList.toggle('open');$('#overlay').classList.toggle('show')});$('#overlay').addEventListener('click',closeMenu);$('#accountBtn').addEventListener('click',account);$('#tutorBtn').addEventListener('click',()=>{if(state.page==='lesson'){const s=byLesson(state.id);openTutor(s?lessonContext(s):'',s?.title||'General chemistry')}else openTutor();});$('#sideTutor').addEventListener('click',()=>openTutor());$('#search').addEventListener('input',e=>{state.search=e.target.value.trim();if(state.search.length>1){state.page='search';render();}else if(!state.search)route();});document.addEventListener('keydown',e=>{if((e.metaKey||e.ctrlKey)&&e.key.toLowerCase()==='k'){e.preventDefault();$('#search').focus()}if(e.key==='Escape')closeMenu()});route();setInterval(()=>{const a=progress.activeTest;if(a){if(Date.now()>=a.deadline){finishTest(true);}else{const timer=$('#timer');if(timer)timer.textContent=timeRemaining(a);}}},1000);window.addEventListener('atlas-auth-change',async e=>{if(!e.detail.signedIn){state.session=null;cancelSync('Signed out');}navUI()});window.addEventListener('online',()=>{if(state.session&&autoSync.ready)scheduleAutoSync(100);else if(state.session&&autoSync.status.includes('unavailable'))startAutoSync()});window.addEventListener('focus',()=>{if(state.session)refreshAutoSync()});if(window.AtlasCloud)try{state.session=await AtlasCloud.init(window.ATLAS_CONFIG||{});state.cloudReady=AtlasCloud.isConfigured();navUI();if(state.session)await startAutoSync();}catch(err){state.cloudReady=AtlasCloud.isConfigured();toast('Cloud session: '+err.message)}}
 init();

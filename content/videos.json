@@ -1,1171 +1,3506 @@
-{
-  "A1.1": [
-    {
-      "title": "How to find the domain of a function",
-      "url": "https://www.khanacademy.org/math/algebra/algebra-functions/v/domain-and-range-1",
-      "provider": "Khan Academy",
-      "focus": "Allowed inputs, domain restrictions and the meaning of a function.",
-      "watchFor": "Allowed inputs, domain restrictions and the meaning of a function.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn8search0",
-      "access": "free"
-    },
-    {
-      "title": "How to find the range of a function",
-      "url": "https://en.khanacademy.org/math/algebra-home/alg-functions/alg-domain-and-range/v/range-of-a-function",
-      "provider": "Khan Academy",
-      "focus": "How possible outputs determine the range.",
-      "watchFor": "How possible outputs determine the range.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn8search1",
-      "access": "free"
-    }
-  ],
-  "A1.2": [
-    {
-      "title": "Systems of equations with graphing",
-      "url": "https://en.khanacademy.org/math/cc-eighth-grade-math/cc-8th-systems-topic/cc-8th-systems-graphically/v/solving-linear-systems-by-graphing",
-      "provider": "Khan Academy",
-      "focus": "Read the intersection as a simultaneous solution and check the coordinates.",
-      "watchFor": "Read the intersection as a simultaneous solution and check the coordinates.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn28search0",
-      "access": "free"
-    }
-  ],
-  "A2.1": [
-    {
-      "title": "Slope and intercept meaning in context",
-      "url": "https://www.khanacademy.org/math/algebra-1-fl-best/x91c6a5a4a9698230%3Aanalyzing-linear-functions/x91c6a5a4a9698230%3Ausing-slope-and-intercepts-in-context/v/slope-intercept-meaning",
-      "provider": "Khan Academy",
-      "focus": "Interpret gradient and intercept using the variables and their units.",
-      "watchFor": "Interpret gradient and intercept using the variables and their units.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn9search34",
-      "access": "free"
-    }
-  ],
-  "A2.2": [
-    {
-      "title": "Graphing quadratics: vertex form | Algebra",
-      "url": "https://www.khanacademy.org/math/algebra-home/alg-quadratics/alg-graphing-quadratic-functions/v/graphing-a-parabola-in-vertex-form",
-      "provider": "Khan Academy",
-      "focus": "Use vertex form to identify the turning point and graph shape.",
-      "watchFor": "Use vertex form to identify the turning point and graph shape.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn8search41",
-      "access": "free"
-    },
-    {
-      "title": "Forms & features of quadratic functions",
-      "url": "https://www.khanacademy.org/math/algebra-home/alg-quadratics/alg-features-of-quadratic-functions/v/rewriting-a-quadratic-function-to-find-roots-and-vertex",
-      "provider": "Khan Academy",
-      "focus": "Compare factorised, expanded and vertex forms.",
-      "watchFor": "Compare factorised, expanded and vertex forms.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn8search44",
-      "access": "free"
-    }
-  ],
-  "A2.3": [
-    {
-      "title": "Zeros of polynomials & their graphs",
-      "url": "https://www.khanacademy.org/math/algebra2/polynomial-functions/v/identifying-graph-based-on-roots",
-      "provider": "Khan Academy",
-      "focus": "Connect polynomial roots with the graph crossing the x-axis.",
-      "watchFor": "Connect polynomial roots with the graph crossing the x-axis.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn9search27",
-      "access": "free"
-    },
-    {
-      "title": "Transforming nonlinear data",
-      "url": "https://en.khanacademy.org/math/statistics-probability/advanced-regression-inference-transforming/nonlinear-regression/v/transforming-nonlinear-data",
-      "provider": "Khan Academy",
-      "focus": "Understand why model choice and transformations matter for nonlinear data.",
-      "watchFor": "Understand why model choice and transformations matter for nonlinear data.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn9search38",
-      "access": "free"
-    }
-  ],
-  "A3.1": [
-    {
-      "title": "Recognizing direct & inverse variation",
-      "url": "https://www.khanacademy.org/math/algebra/ratio-proportion-topic/direct_inverse_variation/v/recognizing-direct-and-inverse-variation",
-      "provider": "Khan Academy",
-      "focus": "Distinguish a constant ratio from a constant product in inverse variation.",
-      "watchFor": "Distinguish a constant ratio from a constant product in inverse variation.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn9search0",
-      "access": "free"
-    }
-  ],
-  "A3.2": [
-    {
-      "title": "Linear vs. exponential growth: from data",
-      "url": "https://www.khanacademy.org/math/math-1-illustrative-math-aligned/x193529144fa1e1f6%3Aintroduction-to-exponential-functions/x193529144fa1e1f6%3Amodeling-exponential-behavior/v/linear-and-exponential-growth-from-data",
-      "provider": "Khan Academy",
-      "focus": "Recognize multiplicative change and distinguish it from linear change.",
-      "watchFor": "Recognize multiplicative change and distinguish it from linear change.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn9search47",
-      "access": "free"
-    }
-  ],
-  "A4.1": [
-    {
-      "title": "Features of sinusoidal functions",
-      "url": "https://www.khanacademy.org/math/trigonometry/trig-function-graphs/trig_graphs_tutorial/v/midline-amplitude-period",
-      "provider": "Khan Academy",
-      "focus": "Read amplitude, midline and period from a sine model.",
-      "watchFor": "Read amplitude, midline and period from a sine model.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn9search29",
-      "access": "free"
-    }
-  ],
-  "A5.1": [
-    {
-      "title": "Worked example: evaluating piecewise functions",
-      "url": "https://www.khanacademy.org/math/college-algebra/xa5dd2923c88e7aa8%3Aadvanced-function-types/xa5dd2923c88e7aa8%3Apiecewise-functions/v/evaluating-piecewise-functions-example",
-      "provider": "Khan Academy",
-      "focus": "Choose the correct rule from the input interval.",
-      "watchFor": "Choose the correct rule from the input interval.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn8search8",
-      "access": "free"
-    },
-    {
-      "title": "Worked example: graphing piecewise functions",
-      "url": "https://www.khanacademy.org/math/math1/math1-functions/math1-piecewise-functions/v/graphing-piecewise-function",
-      "provider": "Khan Academy",
-      "focus": "Graph separate rules and handle endpoints.",
-      "watchFor": "Graph separate rules and handle endpoints.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn8search14",
-      "access": "free"
-    }
-  ],
-  "A6.1": [
-    {
-      "title": "Identifying function transformations",
-      "url": "https://en.khanacademy.org/math/math3/math3-manipulating-func/math3-stretching-func/v/shifting-and-reflecting-functions",
-      "provider": "Khan Academy",
-      "focus": "Follow shifts, reflections and stretches of a function.",
-      "watchFor": "Follow shifts, reflections and stretches of a function.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn10search3",
-      "access": "free"
-    }
-  ],
-  "A6.2": [
-    {
-      "title": "Finding composite functions",
-      "url": "https://www.khanacademy.org/math/precalculus/x9e81a4f98389efdf%3Acomposite/x9e81a4f98389efdf%3Acomposing/v/new-function-from-composition",
-      "provider": "Khan Academy",
-      "focus": "Build the outer function around the inner expression.",
-      "watchFor": "Build the outer function around the inner expression.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn10search6",
-      "access": "free"
-    },
-    {
-      "title": "Intro to inverse functions",
-      "url": "https://www.khanacademy.org/math/trigonometry/functions_and_graphs/fucntion_inverses/v/introduction-to-function-inverses",
-      "provider": "Khan Academy",
-      "focus": "Reverse a function and interpret its inverse.",
-      "watchFor": "Reverse a function and interpret its inverse.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn8search4",
-      "access": "free"
-    }
-  ],
-  "B1.1": [
-    {
-      "title": "Limits of accuracy – problems Video – Corbettmaths",
-      "url": "https://www.youtube.com/watch?v=LdczMmb7J-g",
-      "provider": "Corbettmaths",
-      "focus": "Use upper and lower bounds to solve accuracy problems.",
-      "watchFor": "Use upper and lower bounds to solve accuracy problems.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn14search0",
-      "source": "https://corbettmaths.com/2013/05/29/limits-of-accuracy-solving-problems/",
-      "access": "free"
-    }
-  ],
-  "B1.2": [
-    {
-      "title": "Scientific notation examples",
-      "url": "https://www.khanacademy.org/math/pre-algebra/pre-algebra-exponents-radicals/pre-algebra-scientific-notation/v/scientific-notation",
-      "provider": "Khan Academy",
-      "focus": "Convert numbers to and from powers-of-ten notation.",
-      "watchFor": "Convert numbers to and from powers-of-ten notation.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn10search2",
-      "access": "free"
-    },
-    {
-      "title": "Percent Error Made Easy!",
-      "url": "https://www.youtube.com/watch?v=JbEo46uV6d4",
-      "provider": "The Organic Chemistry Tutor",
-      "focus": "Divide the absolute error by the reference value and convert it to a percentage.",
-      "watchFor": "Divide the absolute error by the reference value and convert it to a percentage.",
-      "kind": "concept",
-      "checked": "2026-11-09",
-      "source_ref": "turn30youtube6",
-      "access": "free"
-    }
-  ],
-  "B2.1": [
-    {
-      "title": "Intro to arithmetic sequences | Algebra",
-      "url": "https://en.khanacademy.org/math/algebra/sequences/v/arithmetic-sequences",
-      "provider": "Khan Academy",
-      "focus": "Use constant differences to find an arithmetic term.",
-      "watchFor": "Use constant differences to find an arithmetic term.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn11search21",
-      "access": "free"
-    },
-    {
-      "title": "Arithmetic series intro (video) | Series",
-      "url": "https://en.khanacademy.org/math/get-ready-for-ap-calc/xa350bf684c056c5c%3Aget-ready-for-infinite-sequences-and-series/xa350bf684c056c5c%3Aarithmetic-series/v/sum-of-arithmetic-sequence-arithmetic-series",
-      "provider": "Khan Academy",
-      "focus": "Understand and calculate an arithmetic sum.",
-      "watchFor": "Understand and calculate an arithmetic sum.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn11search23",
-      "access": "free"
-    }
-  ],
-  "B2.2": [
-    {
-      "title": "Intro to geometric sequences",
-      "url": "https://www.khanacademy.org/math/algebra/sequences/geometric_sequences/v/geometric-sequences-introduction",
-      "provider": "Khan Academy",
-      "focus": "Use a common ratio in a geometric sequence.",
-      "watchFor": "Use a common ratio in a geometric sequence.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn11search6",
-      "access": "free"
-    },
-    {
-      "title": "Worked example: finite geometric series (sigma notation)",
-      "url": "https://www.khanacademy.org/math/math3/math3-series/v/example-finding-sum-of-finite-geometric-series",
-      "provider": "Khan Academy",
-      "focus": "Evaluate a finite geometric sum with its correct bounds.",
-      "watchFor": "Evaluate a finite geometric sum with its correct bounds.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn11search19",
-      "access": "free"
-    }
-  ],
-  "B3.1": [
-    {
-      "title": "Compound interest introduction",
-      "url": "https://www.khanacademy.org/economics-finance-domain/core-finance/interest-tutorial/compound-interest-introduction/v/introduction-to-compound-interest",
-      "provider": "Khan Academy",
-      "focus": "Understand interest on accumulated interest.",
-      "watchFor": "Understand interest on accumulated interest.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn11search16",
-      "access": "free"
-    }
-  ],
-  "B3.2": [
-    {
-      "title": "Calculating future value of annuity",
-      "url": "https://www.khanacademy.org/math/financial-mathematics-tx-teks/x647545bbd61df4a7%3Ainvestments-and-retirement/x647545bbd61df4a7%3Asaving-for-retirement/v/calculating-future-value-of-annuity",
-      "provider": "Khan Academy",
-      "focus": "Compare end-of-period and beginning-of-period annuity payments.",
-      "watchFor": "Compare end-of-period and beginning-of-period annuity payments.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn14search3",
-      "access": "free"
-    }
-  ],
-  "B4.1": [
-    {
-      "title": "Solving exponential equations using exponent properties",
-      "url": "https://www.khanacademy.org/math/engageny-alg2/alg2-3/alg2-3b-log-intro/v/solving-exponential-equations-with-exponent-properties",
-      "provider": "Khan Academy",
-      "focus": "Use exponent properties to compare exponential quantities.",
-      "watchFor": "Use exponent properties to compare exponential quantities.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn11search3",
-      "access": "free"
-    },
-    {
-      "title": "Exponential vs. linear models: table",
-      "url": "https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86%3Aexponential-growth-decay/x2f8bb11595b61c86%3Aexponential-vs-linear-growth/v/exponential-vs-linear-models",
-      "provider": "Khan Academy",
-      "focus": "Connect growth tables with exponential models.",
-      "watchFor": "Connect growth tables with exponential models.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn9search39",
-      "access": "free"
-    }
-  ],
-  "B4.2": [
-    {
-      "title": "Relationship between exponentials & logarithms",
-      "url": "https://www.khanacademy.org/math/algebra2/exponential-and-logarithmic-functions/modal/v/exponential-to-logarithmic-form",
-      "provider": "Khan Academy",
-      "focus": "Understand logarithms as the inverse of exponentials.",
-      "watchFor": "Understand logarithms as the inverse of exponentials.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn11search0",
-      "access": "free"
-    },
-    {
-      "title": "Formula for continuously compounding interest",
-      "url": "https://www.khanacademy.org/v/continuously-compounding-interest-formula-e",
-      "provider": "Khan Academy",
-      "focus": "Understand the exponential model for continuous compounding.",
-      "watchFor": "Understand the exponential model for continuous compounding.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn11search28",
-      "access": "free"
-    }
-  ],
-  "B5.1": [
-    {
-      "title": "Representing linear systems with matrix equations",
-      "url": "https://www.khanacademy.org/math/precalculus/precalc-matrices/matrix-equations/v/matrix-equations-systems",
-      "provider": "Khan Academy",
-      "focus": "Translate simultaneous equations into a matrix equation.",
-      "watchFor": "Translate simultaneous equations into a matrix equation.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn12search0",
-      "access": "free"
-    },
-    {
-      "title": "Solving linear systems with matrices",
-      "url": "https://www.khanacademy.org/math/precalculus/x9e81a4f98389efdf%3Amatrices/x9e81a4f98389efdf%3Asolving-equations-with-inverse-matrices/v/solving-matrix-equation",
-      "provider": "Khan Academy",
-      "focus": "Use inverse matrices to solve a linear system.",
-      "watchFor": "Use inverse matrices to solve a linear system.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn12search4",
-      "access": "free"
-    }
-  ],
-  "B5.2": [
-    {
-      "title": "Markov Chains & Transition Matrices",
-      "url": "https://www.youtube.com/watch?v=1GKtfgwf3ig",
-      "provider": "Dr. Trefor Bazett · YouTube",
-      "focus": "Build a transition matrix and calculate successive state vectors.",
-      "watchFor": "Build a transition matrix and calculate successive state vectors.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn12youtube48",
-      "access": "free"
-    }
-  ],
-  "C1.1": [
-    {
-      "title": "Parallel and perpendicular lines",
-      "url": "https://www.khanacademy.org/math/algebra/linear-equations-and-slope/parallel-and-perpendicular-lines/v/parallel-and-perpendicular-lines",
-      "provider": "Khan Academy",
-      "focus": "Use gradient to recognize parallel and perpendicular lines.",
-      "watchFor": "Use gradient to recognize parallel and perpendicular lines.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn13search5",
-      "access": "free"
-    }
-  ],
-  "C1.2": [
-    {
-      "title": "Voronoi partition: sites, cells and boundaries",
-      "url": "https://www.khanacademy.org/v/patterns2_new",
-      "provider": "Khan Academy · Pixar in a Box",
-      "focus": "Understand sites, nearest-site cells and the equal-distance property of boundaries.",
-      "watchFor": "Understand sites, nearest-site cells and the equal-distance property of boundaries.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source": "https://www.khanacademy.org/v/patterns2_new",
-      "access": "free"
-    },
-    {
-      "title": "Voronoi diagrams: free IB video lessons",
-      "url": "https://addvancemaths.com/ibslai/voronoi/",
-      "provider": "Addvance Maths",
-      "focus": "Draw perpendicular bisectors and apply Voronoi diagrams to IB-style problems.",
-      "watchFor": "Draw perpendicular bisectors and apply Voronoi diagrams to IB-style problems.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source": "https://addvancemaths.com/ibslai/voronoi/",
-      "access": "free"
-    }
-  ],
-  "C2.1": [
-    {
-      "title": "Cylinder volume & surface area",
-      "url": "https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-geometry/cc-8th-volume/v/cylinder-volume-and-surface-area",
-      "provider": "Khan Academy",
-      "focus": "Distinguish exposed surface area from three-dimensional volume.",
-      "watchFor": "Distinguish exposed surface area from three-dimensional volume.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn22search0",
-      "access": "free"
-    }
-  ],
-  "C2.2": [
-    {
-      "title": "Area of a sector (video) | Sectors",
-      "url": "https://www.khanacademy.org/math/grade-7-math-snc-aligned/xf9992e17a4bae62e%3Amensurations/xf9992e17a4bae62e%3Aarea-of-a-circular-region/v/area-of-a-sector-given-a-central-angle",
-      "provider": "Khan Academy",
-      "focus": "Calculate a sector as a fraction of a full circle.",
-      "watchFor": "Calculate a sector as a fraction of a full circle.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn23search5",
-      "access": "free"
-    },
-    {
-      "title": "Intro to radians",
-      "url": "https://www.khanacademy.org/math/engageny-geo/geo-5/geo-5b-arc-length-sector-area/v/introduction-to-radians",
-      "provider": "Khan Academy",
-      "focus": "Relate radians to arc length divided by radius.",
-      "watchFor": "Relate radians to arc length divided by radius.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn22search22",
-      "access": "free"
-    }
-  ],
-  "C3.1": [
-    {
-      "title": "Law of sines: solving for a side | Trigonometry",
-      "url": "https://www.khanacademy.org/math/geometry-home/triangle-properties/sine-cosine-rules/v/law-of-sines",
-      "provider": "Khan Academy",
-      "focus": "Identify opposite side-angle pairs in the sine rule.",
-      "watchFor": "Identify opposite side-angle pairs in the sine rule.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn13search0",
-      "access": "free"
-    },
-    {
-      "title": "Law of cosines: solving for a side | Trigonometry",
-      "url": "https://www.khanacademy.org/math/trigonometry/trig-with-general-triangles/law-of-cosines/v/law-of-cosines-example",
-      "provider": "Khan Academy",
-      "focus": "Use two sides and the included angle in the cosine rule.",
-      "watchFor": "Use two sides and the included angle in the cosine rule.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn13search15",
-      "access": "free"
-    }
-  ],
-  "C3.2": [
-    {
-      "title": "Bearings Video – Corbettmaths",
-      "url": "https://www.youtube.com/watch?v=8Wja7Ct_XvY",
-      "provider": "Corbettmaths",
-      "focus": "Measure bearings clockwise from north and draw the correct triangle.",
-      "watchFor": "Measure bearings clockwise from north and draw the correct triangle.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn22search9",
-      "source": "https://corbettmaths.com/2013/03/27/bearings/",
-      "access": "free"
-    }
-  ],
-  "C4.1": [
-    {
-      "title": "The dot product",
-      "url": "https://www.khanacademy.org/science/in-in-class11th-physics/in-in-class11th-physics-work-energy-and-power/in-in-class11-introduction-to-work/v/the-dot-product",
-      "provider": "Khan Academy",
-      "focus": "Interpret a dot product in terms of direction and magnitude.",
-      "watchFor": "Interpret a dot product in terms of direction and magnitude.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn23search3",
-      "access": "free"
-    }
-  ],
-  "C4.2": [
-    {
-      "title": "Parametric representations of lines",
-      "url": "https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/vectors/v/linear-algebra-parametric-representations-of-lines",
-      "provider": "Khan Academy",
-      "focus": "Represent a line using a starting vector and a direction parameter.",
-      "watchFor": "Represent a line using a starting vector and a direction parameter.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn25search0",
-      "access": "free"
-    }
-  ],
-  "C5.1": [
-    {
-      "title": "Kruskal's algorithm in 2 minutes",
-      "url": "https://www.youtube.com/watch?v=71UQH7Pr9kU",
-      "provider": "Michael Sambol",
-      "focus": "Choose minimum-weight edges while rejecting cycles.",
-      "watchFor": "Choose minimum-weight edges while rejecting cycles.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn27youtube24",
-      "access": "free"
-    },
-    {
-      "title": "The shortest-path algorithm",
-      "url": "https://www.cs.cornell.edu/courses/cs2110/2017fa/online/shortestPath/shortestPath.html",
-      "provider": "Cornell University · explanation videos",
-      "focus": "Follow a shortest-path algorithm with tentative distances.",
-      "watchFor": "Follow a shortest-path algorithm with tentative distances.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn24search2",
-      "access": "free"
-    }
-  ],
-  "C5.2": [
-    {
-      "title": "Chinese Postman problem / Route Inspection Problem (Decision Maths 1)",
-      "url": "https://www.youtube.com/watch?v=spaUY8PlyYA",
-      "provider": "MathMathsMathematics · YouTube",
-      "focus": "Find odd vertices, compare pairings and repeat the shortest extra edges for a closed inspection route.",
-      "watchFor": "Find odd vertices, compare pairings and repeat the shortest extra edges for a closed inspection route.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source": "https://www.youtube.com/watch?v=spaUY8PlyYA",
-      "access": "free"
-    }
-  ],
-  "D1.1": [
-    {
-      "title": "Techniques for random sampling and avoiding bias",
-      "url": "https://www.khanacademy.org/math/ap-statistics/gathering-data-ap/sampling-observational-studies/v/techniques-for-random-sampling-and-avoiding-bias",
-      "provider": "Khan Academy",
-      "focus": "Compare random sampling methods and identify possible bias.",
-      "watchFor": "Compare random sampling methods and identify possible bias.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn15search17",
-      "access": "free"
-    }
-  ],
-  "D1.2": [
-    {
-      "title": "Statistics intro: Mean, median, & mode",
-      "url": "https://www.khanacademy.org/v/statistics-intro-mean-median-and-mode",
-      "provider": "Khan Academy",
-      "focus": "Calculate and interpret the mean, median and mode.",
-      "watchFor": "Calculate and interpret the mean, median and mode.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn15search11",
-      "access": "free"
-    },
-    {
-      "title": "Mean and standard deviation versus median and IQR",
-      "url": "https://www.khanacademy.org/math/ap-statistics/summarizing-quantitative-data-ap/v/mean-and-standard-deviation-versus-median-and-iqr",
-      "provider": "Khan Academy",
-      "focus": "Choose appropriate measures of centre and spread.",
-      "watchFor": "Choose appropriate measures of centre and spread.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn15search8",
-      "access": "free"
-    }
-  ],
-  "D1.3": [
-    {
-      "title": "Interpreting box plots",
-      "url": "https://en.khanacademy.org/math/statistics-probability/summarizing-quantitative-data/box-whisker-plots/v/interpreting-box-plots",
-      "provider": "Khan Academy",
-      "focus": "Compare medians, quartiles and whiskers in box plots.",
-      "watchFor": "Compare medians, quartiles and whiskers in box plots.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn15search7",
-      "access": "free"
-    },
-    {
-      "title": "Investigating outliers (video) | Outliers",
-      "url": "https://www.khanacademy.org/math/algebra-1-illustrative-math/x6418b49dfbc9d0c9%3Aone-variable-statistics/x6418b49dfbc9d0c9%3Aoutliers/v/investigating-outliers",
-      "provider": "Khan Academy",
-      "focus": "Investigate unusual observations and outliers.",
-      "watchFor": "Investigate unusual observations and outliers.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn15search15",
-      "access": "free"
-    },
-    {
-      "title": "Reading Cumulative Frequency Graphs Video",
-      "url": "https://www.youtube.com/watch?v=DwM6MrGq1h4",
-      "provider": "Corbettmaths",
-      "focus": "Read quartiles and percentiles from a cumulative-frequency graph.",
-      "watchFor": "Read quartiles and percentiles from a cumulative-frequency graph.",
-      "kind": "concept",
-      "checked": "2026-11-09",
-      "source_ref": "turn29search2",
-      "access": "free",
-      "source": "https://corbettmaths.com/2012/08/09/reading-cumulative-frequency-graphs/"
-    }
-  ],
-  "D2.1": [
-    {
-      "title": "Calculating the equation of a regression line",
-      "url": "https://www.khanacademy.org/math/statistics-probability/describing-relationships-quantitative-data/regression-library/v/calculating-the-equation-of-a-regression-line",
-      "provider": "Khan Academy",
-      "focus": "Understand the fitted regression equation.",
-      "watchFor": "Understand the fitted regression equation.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn15search25",
-      "access": "free"
-    },
-    {
-      "title": "Introduction to residuals and least-squares regression",
-      "url": "https://www.khanacademy.org/math/probability/xa88397b6%3Ascatterplots/xa88397b6%3Aresiduals/v/regression-residual-intro",
-      "provider": "Khan Academy",
-      "focus": "Calculate observed minus predicted values and interpret residuals.",
-      "watchFor": "Calculate observed minus predicted values and interpret residuals.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn15search6",
-      "access": "free"
-    }
-  ],
-  "D2.2": [
-    {
-      "title": "Correlation: Spearman's Rank Correlation - How to Calculate? Statistics",
-      "url": "https://www.youtube.com/watch?v=34nG-yXZZHI",
-      "provider": "YouTube · statistics tutorial",
-      "focus": "Rank paired observations and calculate Spearman correlation.",
-      "watchFor": "Rank paired observations and calculate Spearman correlation.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn16youtube51",
-      "access": "free"
-    },
-    {
-      "title": "Calculating R-squared",
-      "url": "https://www.khanacademy.org/math/probability/statistics/v/calculating-r-squared",
-      "provider": "Khan Academy",
-      "focus": "Interpret explained variation using R-squared.",
-      "watchFor": "Interpret explained variation using R-squared.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn15search14",
-      "access": "free"
-    }
-  ],
-  "D3.1": [
-    {
-      "title": "Finding probability of an event given another",
-      "url": "https://www.khanacademy.org/math/ncert-class-12/x7ce8ca9c5869750b%3Aprobability-ncert-new/x7ce8ca9c5869750b%3Aproperties-of-conditional-probability/v/finding-probability-of-an-event-given-another",
-      "provider": "Khan Academy",
-      "focus": "Change the sample space when an event is given.",
-      "watchFor": "Change the sample space when an event is given.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn16search21",
-      "access": "free"
-    }
-  ],
-  "D3.2": [
-    {
-      "title": "Conditional probability with Bayes' Theorem",
-      "url": "https://en.khanacademy.org/math/statistics-probability/probability-library/bayes-theorem/v/bayes-theorem-visualized",
-      "provider": "Khan Academy",
-      "focus": "Reverse conditioning using base rates and joint probabilities.",
-      "watchFor": "Reverse conditioning using base rates and joint probabilities.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn16search1",
-      "access": "free"
-    }
-  ],
-  "D4.1": [
-    {
-      "title": "Mean (expected value) of a discrete random variable",
-      "url": "https://www.khanacademy.org/math/statistics-probability/random-variables-stats-library/random-variables-discrete/v/expected-value-of-a-discrete-random-variable",
-      "provider": "Khan Academy",
-      "focus": "Weight each possible value by its probability.",
-      "watchFor": "Weight each possible value by its probability.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn16search11",
-      "access": "free"
-    }
-  ],
-  "D4.2": [
-    {
-      "title": "Binomial probability example",
-      "url": "https://www.khanacademy.org/math/ap-statistics/xfb5d8e68%3Aprobability-random-variables-and-probability-distributions/xfb5d8e68%3Athe-binomial-distribution/v/probability-of-making-2-shots-in-6-attempts",
-      "provider": "Khan Academy",
-      "focus": "Define binomial successes and calculate an exact-count probability.",
-      "watchFor": "Define binomial successes and calculate an exact-count probability.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn16search15",
-      "access": "free"
-    },
-    {
-      "title": "\"At least one\" probability with coin flipping",
-      "url": "https://www.khanacademy.org/v/getting-at-least-one-heads",
-      "provider": "Khan Academy",
-      "focus": "Use a complementary probability for an at-least-one event.",
-      "watchFor": "Use a complementary probability for an at-least-one event.",
-      "kind": "concept",
-      "checked": "2026-11-09",
-      "source_ref": "turn29search4",
-      "access": "free"
-    }
-  ],
-  "D4.3": [
-    {
-      "title": "Standard normal distribution and the empirical rule (from ck12.org)",
-      "url": "https://en.khanacademy.org/math/statistics-probability/modeling-distributions-of-data/normal-distributions-library/v/ck12-org-exercise-standard-normal-distribution-and-the-empirical-rule",
-      "provider": "Khan Academy",
-      "focus": "Interpret the standard normal model and standard deviations.",
-      "watchFor": "Interpret the standard normal model and standard deviations.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn17search27",
-      "access": "free"
-    },
-    {
-      "title": "Finding z-score for a percentile",
-      "url": "https://www.khanacademy.org/math/ap-statistics/density-curves-normal-distribution-ap/normal-distributions-calculations/v/finding-z-score-for-a-percentile",
-      "provider": "Khan Academy",
-      "focus": "Find a boundary from a known percentile or left-tail area.",
-      "watchFor": "Find a boundary from a known percentile or left-tail area.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn21search6",
-      "access": "free"
-    }
-  ],
-  "D4.4": [
-    {
-      "title": "Probability density functions",
-      "url": "https://en.khanacademy.org/math/statistics-probability/random-variables-stats-library/random-variables-continuous/v/probability-density-functions",
-      "provider": "Khan Academy",
-      "focus": "Interpret probability as area under a density.",
-      "watchFor": "Interpret probability as area under a density.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn18search1",
-      "access": "free"
-    },
-    {
-      "title": "Deriving the variance of the difference of random variables",
-      "url": "https://www.khanacademy.org/v/variance-of-differences-of-random-variables",
-      "provider": "Khan Academy",
-      "focus": "Combine variances of independent random variables correctly.",
-      "watchFor": "Combine variances of independent random variables correctly.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn18search5",
-      "access": "free"
-    }
-  ],
-  "D5.1": [
-    {
-      "title": "Hypothesis testing and p-values",
-      "url": "https://www.khanacademy.org/math/statistics-probability/statistics-inferential/hypothesis-testing/v/hypothesis-testing-and-p-values",
-      "provider": "Khan Academy",
-      "focus": "Understand hypotheses and the meaning of a p-value.",
-      "watchFor": "Understand hypotheses and the meaning of a p-value.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn17search0",
-      "access": "free"
-    },
-    {
-      "title": "Comparing P-values to different significance levels",
-      "url": "https://www.khanacademy.org/math/ap-statistics/xfb5d8e68%3Ainference-categorical-proportions/idea-significance-tests/v/comparing-p-value-diff-significance-levels",
-      "provider": "Khan Academy",
-      "focus": "Compare p with a significance level to make a decision.",
-      "watchFor": "Compare p with a significance level to make a decision.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn17search8",
-      "access": "free"
-    }
-  ],
-  "D5.2": [
-    {
-      "title": "Pearson's chi square test (goodness of fit)",
-      "url": "https://www.khanacademy.org/math/statistics-probability/inference-categorical-data-chi-square-tests/chi-square-goodness-of-fit-tests/v/pearson-s-chi-square-test-goodness-of-fit",
-      "provider": "Khan Academy",
-      "focus": "Compare observed and expected category counts for goodness of fit.",
-      "watchFor": "Compare observed and expected category counts for goodness of fit.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn17search9",
-      "access": "free"
-    },
-    {
-      "title": "Chi-square test for association (independence)",
-      "url": "https://en.khanacademy.org/math/statistics-probability/inference-categorical-data-chi-square-tests/chi-square-tests-for-homogeneity-and-association-independence/v/chi-square-test-association-independence",
-      "provider": "Khan Academy",
-      "focus": "Test for association between two categorical variables.",
-      "watchFor": "Test for association between two categorical variables.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn17search10",
-      "access": "free"
-    }
-  ],
-  "D5.3": [
-    {
-      "title": "Two-sample t test for difference of means",
-      "url": "https://www.khanacademy.org/math/ap-statistics/two-sample-inference/v/two-sample-t-test-for-difference-of-means",
-      "provider": "Khan Academy",
-      "focus": "Compare two population means using independent samples.",
-      "watchFor": "Compare two population means using independent samples.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn17search7",
-      "access": "free"
-    }
-  ],
-  "D5.4": [
-    {
-      "title": "T-statistic confidence interval",
-      "url": "https://www.khanacademy.org/math/statistics/v/t-statistic-confidence-interval",
-      "provider": "Khan Academy",
-      "focus": "Interpret an interval estimate with sampling uncertainty.",
-      "watchFor": "Interpret an interval estimate with sampling uncertainty.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn18search31",
-      "access": "free"
-    },
-    {
-      "title": "Introduction to Type I and Type II errors",
-      "url": "https://www.khanacademy.org/math/ap-statistics/xfb5d8e68%3Ainference-categorical-proportions/error-probabilities-power/v/introduction-to-type-i-and-type-ii-errors",
-      "provider": "Khan Academy",
-      "focus": "Distinguish Type I and Type II decisions.",
-      "watchFor": "Distinguish Type I and Type II decisions.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn18search15",
-      "access": "free"
-    }
-  ],
-  "E1.1": [
-    {
-      "title": "Exploring derivatives as a concept",
-      "url": "https://www.khanacademy.org/math/calculus-1/cs1-derivatives-definition-and-basic-rules/cs1-average-vs-instantaneous-rate-of-change/v/derivative-as-a-concept",
-      "provider": "Khan Academy",
-      "focus": "See the derivative as a local rate of change.",
-      "watchFor": "See the derivative as a local rate of change.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn19search21",
-      "access": "free"
-    }
-  ],
-  "E2.1": [
-    {
-      "title": "Exploring the power rule",
-      "url": "https://www.khanacademy.org/math/calculus-1/cs1-derivatives-definition-and-rules/cs1-power-rule/v/power-rule",
-      "provider": "Khan Academy",
-      "focus": "Apply the exponent multiplier and reduced power.",
-      "watchFor": "Apply the exponent multiplier and reduced power.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn19search29",
-      "access": "free"
-    },
-    {
-      "title": "Connecting the derivative and tangent line equations",
-      "url": "https://www.khanacademy.org/math/ap-calculus-ab/ab-derivative-intro/ab-linearity/v/derivative-as-slope-of-tangent-line",
-      "provider": "Khan Academy",
-      "focus": "Use a derivative value and curve point to find a tangent.",
-      "watchFor": "Use a derivative value and curve point to find a tangent.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn19search17",
-      "access": "free"
-    }
-  ],
-  "E2.2": [
-    {
-      "title": "Using the chain rule",
-      "url": "https://www.khanacademy.org/v/chain-rule-introduction",
-      "provider": "Khan Academy",
-      "focus": "Differentiate a function within another function.",
-      "watchFor": "Differentiate a function within another function.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn19search13",
-      "access": "free"
-    },
-    {
-      "title": "Applying the chain rule and product rule",
-      "url": "https://www.khanacademy.org/math/differential-calculus/dc-chain/v/applying-the-chain-rule-and-product-rule",
-      "provider": "Khan Academy",
-      "focus": "Combine chain and product rules in one example.",
-      "watchFor": "Combine chain and product rules in one example.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn19search3",
-      "access": "free"
-    },
-    {
-      "title": "Quotient rule from product & chain rules",
-      "url": "https://www.khanacademy.org/math/ap-calculus-bc/bc-differentiation-2-new/bc-diff-2-optional/v/quotient-rule-from-product-rule",
-      "provider": "Khan Academy",
-      "focus": "Connect the quotient rule to product and chain rules.",
-      "watchFor": "Connect the quotient rule to product and chain rules.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn19search2",
-      "access": "free"
-    }
-  ],
-  "E3.1": [
-    {
-      "title": "Exploring antiderivatives and indefinite integrals",
-      "url": "https://www.khanacademy.org/math/ap-calculus-ab/ab-integration-1/ab-4-1/v/antiderivatives-and-indefinite-integrals",
-      "provider": "Khan Academy",
-      "focus": "Understand the family of antiderivatives and the constant of integration.",
-      "watchFor": "Understand the family of antiderivatives and the constant of integration.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn19search1",
-      "access": "free"
-    },
-    {
-      "title": "Exploring the fundamental theorem of calculus and definite integrals",
-      "url": "https://www.khanacademy.org/math/ap-calculus-ab/ab-antiderivatives-ftc/ab-fundamental-theorem-of-calc/v/connecting-the-first-and-second-fundamental-theorems-of-calculus",
-      "provider": "Khan Academy",
-      "focus": "Evaluate definite accumulation with the fundamental theorem.",
-      "watchFor": "Evaluate definite accumulation with the fundamental theorem.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn19search8",
-      "access": "free"
-    }
-  ],
-  "E3.2": [
-    {
-      "title": "Calculating the area between curves",
-      "url": "https://www.khanacademy.org/v/area-between-curves",
-      "provider": "Khan Academy",
-      "focus": "Integrate upper minus lower to find an area.",
-      "watchFor": "Integrate upper minus lower to find an area.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn20search1",
-      "access": "free"
-    },
-    {
-      "title": "Calculating the composite area between curves",
-      "url": "https://www.khanacademy.org/math/ap-calculus-bc/bc-applications-of-integration-new/bc-8-4/v/area-between-curves-with-multiple-boundaries",
-      "provider": "Khan Academy",
-      "focus": "Split the interval when boundary curves change order.",
-      "watchFor": "Split the interval when boundary curves change order.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn20search12",
-      "access": "free"
-    }
-  ],
-  "E4.1": [
-    {
-      "title": "Optimization with Calculus 3",
-      "url": "https://www.youtube.com/watch?v=i8Wtu-kdDC4",
-      "provider": "Khan Academy · YouTube",
-      "focus": "Model an optimization problem and find a stationary candidate.",
-      "watchFor": "Model an optimization problem and find a stationary candidate.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn27youtube25",
-      "access": "free"
-    }
-  ],
-  "E4.2": [
-    {
-      "title": "Solving motion problems with integrals: displacement vs. distance",
-      "url": "https://www.khanacademy.org/math/ap-calculus-bc/bc-applications-of-integration-new/bc-8-2/v/motion-problems-with-integrals",
-      "provider": "Khan Academy",
-      "focus": "Distinguish signed displacement from total distance.",
-      "watchFor": "Distinguish signed displacement from total distance.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn20search7",
-      "access": "free"
-    }
-  ],
-  "E4.3": [
-    {
-      "title": "Concavity introduction",
-      "url": "https://www.khanacademy.org/math/ap-calculus-ab/ab-diff-analytical-applications-new/ab-5-6a/v/concavity-concave-upwards-and-concave-downwards-intervals",
-      "provider": "Khan Academy",
-      "focus": "Use the second derivative to describe concavity.",
-      "watchFor": "Use the second derivative to describe concavity.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn20search2",
-      "access": "free"
-    },
-    {
-      "title": "Introducing inflection points",
-      "url": "https://www.khanacademy.org/math/differential-calculus/dc-analytic-app/dc-concavity-intro/v/inflection-points",
-      "provider": "Khan Academy",
-      "focus": "Check a change in concavity at an inflection candidate.",
-      "watchFor": "Check a change in concavity at an inflection candidate.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn20search0",
-      "access": "free"
-    }
-  ],
-  "E5.1": [
-    {
-      "title": "Separable equations introduction | Differential equations",
-      "url": "https://www.khanacademy.org/math/ap-calculus-ab/ab-diff-equations/v/separable-differential-equations-introduction",
-      "provider": "Khan Academy",
-      "focus": "Separate variables in a first-order differential equation.",
-      "watchFor": "Separate variables in a first-order differential equation.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn21search2",
-      "access": "free"
-    },
-    {
-      "title": "Worked example: separable equations | Differential equations",
-      "url": "https://www.khanacademy.org/math/ap-calculus-ab/ab-differential-equations-new/ab-7-7/v/particular-solution-to-differential-equation-example",
-      "provider": "Khan Academy",
-      "focus": "Apply an initial condition to obtain a particular solution.",
-      "watchFor": "Apply an initial condition to obtain a particular solution.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn21search0",
-      "access": "free"
-    }
-  ],
-  "E5.2": [
-    {
-      "title": "Euler's method | Differential equations",
-      "url": "https://www.khanacademy.org/math/differential-equations/first-order-differential-equations/eulers-method-tutorial/v/eulers-method",
-      "provider": "Khan Academy",
-      "focus": "Take repeated short tangent steps using the old state.",
-      "watchFor": "Take repeated short tangent steps using the old state.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn21search1",
-      "access": "free"
-    },
-    {
-      "title": "Higher Order/ Coupled Differential Equations : Euler's Method : Part 1 of 2 : Youtube",
-      "url": "https://mathforcollege.com/nm/videos/youtube/08ode/higher/higher_08ode_euler1.html",
-      "provider": "Holistic Numerical Methods",
-      "focus": "Extend Euler updates to coupled differential equations.",
-      "watchFor": "Extend Euler updates to coupled differential equations.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn21search17",
-      "access": "free"
-    }
-  ],
-  "A1.3": [
-    {
-      "title": "Intro to inverse functions",
-      "url": "https://www.khanacademy.org/math/trigonometry/functions_and_graphs/fucntion_inverses/v/introduction-to-function-inverses",
-      "provider": "Khan Academy",
-      "focus": "Swap inputs and outputs and restrict domains for an inverse.",
-      "watchFor": "Swap inputs and outputs and restrict domains for an inverse.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn8search4",
-      "access": "free"
-    }
-  ],
-  "A3.3": [
-    {
-      "title": "Worked example: Logistic model word problem",
-      "url": "https://www.khanacademy.org/math/calculus-2/cs2-differential-equations/cs2-logistic-models/v/analyzing-logistic-differential-equations",
-      "provider": "Khan Academy",
-      "focus": "Interpret the logistic equation and carrying capacity.",
-      "watchFor": "Interpret the logistic equation and carrying capacity.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn12search10",
-      "access": "free"
-    }
-  ],
-  "B5.3": [
-    {
-      "title": "Eigenvectors and eigenvalues | 3Blue1Brown",
-      "url": "https://www.youtube.com/watch?v=PFDu9oVAE-g",
-      "provider": "3Blue1Brown",
-      "focus": "See the preserved direction, eigenvalue and eigenbasis geometrically.",
-      "watchFor": "See the preserved direction, eigenvalue and eigenbasis geometrically.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn14search2",
-      "source": "https://www.3blue1brown.com/lessons/eigenvalues/",
-      "access": "free"
-    }
-  ],
-  "D4.5": [
-    {
-      "title": "Central limit theorem",
-      "url": "https://www.khanacademy.org/math/probability/statistics-inferential/sampling-distribution/v/central-limit-theorem",
-      "provider": "Khan Academy",
-      "focus": "Understand the distribution of sample means.",
-      "watchFor": "Understand the distribution of sample means.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn18search2",
-      "access": "free"
-    },
-    {
-      "title": "Sampling distribution of the sample mean",
-      "url": "https://www.khanacademy.org/science/ap-statistics/sampling-distribution-ap/sampling-distribution-mean/v/sampling-distribution-of-the-sample-mean",
-      "provider": "Khan Academy",
-      "focus": "Relate standard error to sample size.",
-      "watchFor": "Relate standard error to sample size.",
-      "checked": "2026-11-09",
-      "kind": "concept",
-      "source_ref": "turn18search7",
-      "access": "free"
-    }
-  ]
-}
+[
+  {
+    "topic": "S1.1",
+    "hl": false,
+    "title": "Elements, compounds and mixtures",
+    "url": "https://www.youtube.com/watch?v=XoxA43AJZCg",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S1.1.1"
+    ],
+    "source": "https://www.msjchem.com/structure-11-models-of-the-particulate-nature-of-matter.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S1.1",
+    "hl": false,
+    "title": "The changes of state",
+    "url": "https://www.youtube.com/watch?v=IqjOI-Ebz0M",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S1.1.2"
+    ],
+    "source": "https://www.msjchem.com/structure-11-models-of-the-particulate-nature-of-matter.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S1.1",
+    "hl": false,
+    "title": "Physical and chemical changes",
+    "url": "https://www.youtube.com/watch?v=tyB5jgaWY3w",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S1.1.2"
+    ],
+    "source": "https://www.msjchem.com/structure-11-models-of-the-particulate-nature-of-matter.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S1.1",
+    "hl": false,
+    "title": "Changes of state, the Celsius and Kelvin scales, and heating and cooling curves",
+    "url": "https://www.youtube.com/watch?v=dKovNU-SDA8",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S1.1.3"
+    ],
+    "source": "https://www.msjchem.com/structure-11-models-of-the-particulate-nature-of-matter.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S1.1",
+    "hl": false,
+    "title": "MSJ Chem S1.1 SL/HL video lesson collection",
+    "url": "https://www.msjchem.com/structure-11-models-of-the-particulate-nature-of-matter.html",
+    "provider": "MSJ Chem",
+    "kind": "collection",
+    "outcomes": [],
+    "source": "https://www.msjchem.com/structure-11-models-of-the-particulate-nature-of-matter.html",
+    "verified": true,
+    "verification": "Creator-hosted topic collection retrieved 2026-11-07."
+  },
+  {
+    "topic": "S1.2",
+    "hl": false,
+    "title": "The structure of the atom",
+    "url": "https://www.youtube.com/watch?v=n3gdebSTYiA",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S1.2.1"
+    ],
+    "source": "https://www.msjchem.com/structure-12-the-nuclear-atom.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S1.2",
+    "hl": false,
+    "title": "Atomic number, mass number and the nuclear notation",
+    "url": "https://www.youtube.com/watch?v=nZ6CYQR1yWQ",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S1.2.1"
+    ],
+    "source": "https://www.msjchem.com/structure-12-the-nuclear-atom.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S1.2",
+    "hl": false,
+    "title": "Isotopes and their physical properties",
+    "url": "https://www.youtube.com/watch?v=Y_XCiPgnFoY",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S1.2.2"
+    ],
+    "source": "https://www.msjchem.com/structure-12-the-nuclear-atom.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S1.2",
+    "hl": false,
+    "title": "How to calculate relative atomic mass, A r",
+    "url": "https://www.youtube.com/watch?v=DjJqgx0HzyY",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S1.2.2"
+    ],
+    "source": "https://www.msjchem.com/structure-12-the-nuclear-atom.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S1.2",
+    "hl": false,
+    "title": "MSJ Chem S1.2 SL/HL video lesson collection",
+    "url": "https://www.msjchem.com/structure-12-the-nuclear-atom.html",
+    "provider": "MSJ Chem",
+    "kind": "collection",
+    "outcomes": [],
+    "source": "https://www.msjchem.com/structure-12-the-nuclear-atom.html",
+    "verified": true,
+    "verification": "Creator-hosted topic collection retrieved 2026-11-07."
+  },
+  {
+    "topic": "S1.2",
+    "hl": true,
+    "title": "How to interpret the mass spectra of elements",
+    "url": "https://www.youtube.com/watch?v=mCWMIF7jzHQ",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S1.2.3"
+    ],
+    "source": "https://www.msjchem.com/structure-12-hl-the-nuclear-atom.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S1.2",
+    "hl": true,
+    "title": "MSJ Chem S1.2 HL video lesson collection",
+    "url": "https://www.msjchem.com/structure-12-hl-the-nuclear-atom.html",
+    "provider": "MSJ Chem",
+    "kind": "collection",
+    "outcomes": [],
+    "source": "https://www.msjchem.com/structure-12-hl-the-nuclear-atom.html",
+    "verified": true,
+    "verification": "Creator-hosted topic collection retrieved 2026-11-07."
+  },
+  {
+    "topic": "S1.3",
+    "hl": false,
+    "title": "The electromagnetic spectrum and the relationship between energy, frequency and wavelength",
+    "url": "https://www.youtube.com/watch?v=cMDPuxgPpug",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S1.3.1"
+    ],
+    "source": "https://www.msjchem.com/structure-13-electron-configurations.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S1.3",
+    "hl": false,
+    "title": "The difference between a continuous spectrum and a line spectrum",
+    "url": "https://www.youtube.com/watch?v=hi4TFn7L7Js",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S1.3.1"
+    ],
+    "source": "https://www.msjchem.com/structure-13-electron-configurations.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S1.3",
+    "hl": false,
+    "title": "The emission spectrum of hydrogen",
+    "url": "https://www.youtube.com/watch?v=JkavWsnQWLU",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S1.3.2"
+    ],
+    "source": "https://www.msjchem.com/structure-13-electron-configurations.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S1.3",
+    "hl": false,
+    "title": "Atomic orbitals and sub-levels",
+    "url": "https://www.youtube.com/watch?v=w2q7EB95FcM",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S1.3.3",
+      "S1.3.4"
+    ],
+    "source": "https://www.msjchem.com/structure-13-electron-configurations.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S1.3",
+    "hl": false,
+    "title": "Writing electron configurations of atoms — part one",
+    "url": "https://www.youtube.com/watch?v=fvjdni6Jo0A",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S1.3.5"
+    ],
+    "source": "https://www.msjchem.com/structure-13-electron-configurations.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S1.3",
+    "hl": false,
+    "title": "Writing electron configurations of atoms — part two",
+    "url": "https://www.youtube.com/watch?v=n5neQVa-GhU",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S1.3.5"
+    ],
+    "source": "https://www.msjchem.com/structure-13-electron-configurations.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S1.3",
+    "hl": false,
+    "title": "MSJ Chem S1.3 SL/HL video lesson collection",
+    "url": "https://www.msjchem.com/structure-13-electron-configurations.html",
+    "provider": "MSJ Chem",
+    "kind": "collection",
+    "outcomes": [],
+    "source": "https://www.msjchem.com/structure-13-electron-configurations.html",
+    "verified": true,
+    "verification": "Creator-hosted topic collection retrieved 2026-11-07."
+  },
+  {
+    "topic": "S1.3",
+    "hl": true,
+    "title": "How to calculate the first ionisation energy from the wavelength or frequency of the convergence limit",
+    "url": "https://www.youtube.com/watch?v=Fhxy4DFEEfA",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S1.3.6"
+    ],
+    "source": "https://www.msjchem.com/structure-13-electron-configurations-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S1.3",
+    "hl": true,
+    "title": "How to deduce the group number of an element from its successive ionisation data",
+    "url": "https://www.youtube.com/watch?v=RFd4s3xZFvg",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S1.3.7"
+    ],
+    "source": "https://www.msjchem.com/structure-13-electron-configurations-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S1.3",
+    "hl": true,
+    "title": "MSJ Chem S1.3 HL video lesson collection",
+    "url": "https://www.msjchem.com/structure-13-electron-configurations-hl.html",
+    "provider": "MSJ Chem",
+    "kind": "collection",
+    "outcomes": [],
+    "source": "https://www.msjchem.com/structure-13-electron-configurations-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted topic collection retrieved 2026-11-07."
+  },
+  {
+    "topic": "S1.4",
+    "hl": false,
+    "title": "The mole concept",
+    "url": "https://www.youtube.com/watch?v=gYkx8QbOCYs",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S1.4.1"
+    ],
+    "source": "https://www.msjchem.com/structure-14-counting-particles-by-mass-the-mole.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S1.4",
+    "hl": false,
+    "title": "Relative atomic mass and relative molecular mass / relative formula mass",
+    "url": "https://www.youtube.com/watch?v=IHK8pmnijMc",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S1.4.2"
+    ],
+    "source": "https://www.msjchem.com/structure-14-counting-particles-by-mass-the-mole.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S1.4",
+    "hl": false,
+    "title": "How to calculate the molar mass of a compound",
+    "url": "https://www.youtube.com/watch?v=e4y9_nWy2cE",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S1.4.3"
+    ],
+    "source": "https://www.msjchem.com/structure-14-counting-particles-by-mass-the-mole.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S1.4",
+    "hl": false,
+    "title": "How to calculate the amount (in mol) of a substance",
+    "url": "https://www.youtube.com/watch?v=KdLQ75158K4",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S1.4.3"
+    ],
+    "source": "https://www.msjchem.com/structure-14-counting-particles-by-mass-the-mole.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S1.4",
+    "hl": false,
+    "title": "How to convert between amount (in mol) and mass (in g)",
+    "url": "https://www.youtube.com/watch?v=_xU-_gGRQTc",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S1.4.3"
+    ],
+    "source": "https://www.msjchem.com/structure-14-counting-particles-by-mass-the-mole.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S1.4",
+    "hl": false,
+    "title": "How to determine the percent composition by mass of an element in a compound",
+    "url": "https://www.youtube.com/watch?v=bRZM7Z1r2k4",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S1.4.4"
+    ],
+    "source": "https://www.msjchem.com/structure-14-counting-particles-by-mass-the-mole.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S1.4",
+    "hl": false,
+    "title": "Empirical and molecular formulas",
+    "url": "https://www.youtube.com/watch?v=UHcSAMfRFRM",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S1.4.4"
+    ],
+    "source": "https://www.msjchem.com/structure-14-counting-particles-by-mass-the-mole.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S1.4",
+    "hl": false,
+    "title": "How to determine an empirical formula from percent composition by mass data",
+    "url": "https://www.youtube.com/watch?v=TsxNpiqiorE",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S1.4.4"
+    ],
+    "source": "https://www.msjchem.com/structure-14-counting-particles-by-mass-the-mole.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S1.4",
+    "hl": false,
+    "title": "Calculations involving concentrations of solutions",
+    "url": "https://www.youtube.com/watch?v=LEpqbhyBa-U",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S1.4.5"
+    ],
+    "source": "https://www.msjchem.com/structure-14-counting-particles-by-mass-the-mole.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S1.4",
+    "hl": false,
+    "title": "Avogadro's law",
+    "url": "https://www.youtube.com/watch?v=ls_U8MvcJo4",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S1.4.6"
+    ],
+    "source": "https://www.msjchem.com/structure-14-counting-particles-by-mass-the-mole.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S1.4",
+    "hl": false,
+    "title": "MSJ Chem S1.4 SL/HL video lesson collection",
+    "url": "https://www.msjchem.com/structure-14-counting-particles-by-mass-the-mole.html",
+    "provider": "MSJ Chem",
+    "kind": "collection",
+    "outcomes": [],
+    "source": "https://www.msjchem.com/structure-14-counting-particles-by-mass-the-mole.html",
+    "verified": true,
+    "verification": "Creator-hosted topic collection retrieved 2026-11-07."
+  },
+  {
+    "topic": "S1.5",
+    "hl": false,
+    "title": "The properties of ideal gases and the conditions at which real gases devaiate from ideal gas behaviour",
+    "url": "https://www.youtube.com/watch?v=hYKtPIKpTok",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S1.5.1",
+      "S1.5.2"
+    ],
+    "source": "https://www.msjchem.com/structure-15-ideal-gases.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S1.5",
+    "hl": false,
+    "title": "The molar volume of a gas at STP",
+    "url": "https://www.youtube.com/watch?v=sh9FtcSSFJQ",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S1.5.3"
+    ],
+    "source": "https://www.msjchem.com/structure-15-ideal-gases.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S1.5",
+    "hl": false,
+    "title": "The gas laws including the combined gas law",
+    "url": "https://www.youtube.com/watch?v=jiFA7ZKWuc0",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S1.5.3"
+    ],
+    "source": "https://www.msjchem.com/structure-15-ideal-gases.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S1.5",
+    "hl": false,
+    "title": "Examples involving the gas laws",
+    "url": "https://www.youtube.com/watch?v=IExmmBjmICQ",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S1.5.3"
+    ],
+    "source": "https://www.msjchem.com/structure-15-ideal-gases.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S1.5",
+    "hl": false,
+    "title": "Calculations using the ideal gas equation",
+    "url": "https://www.youtube.com/watch?v=cr-RPbQbxSA",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S1.5.4"
+    ],
+    "source": "https://www.msjchem.com/structure-15-ideal-gases.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S1.5",
+    "hl": false,
+    "title": "MSJ Chem S1.5 SL/HL video lesson collection",
+    "url": "https://www.msjchem.com/structure-15-ideal-gases.html",
+    "provider": "MSJ Chem",
+    "kind": "collection",
+    "outcomes": [],
+    "source": "https://www.msjchem.com/structure-15-ideal-gases.html",
+    "verified": true,
+    "verification": "Creator-hosted topic collection retrieved 2026-11-07."
+  },
+  {
+    "topic": "S2.1",
+    "hl": false,
+    "title": "The formation of positive ions (cations) and negative ions (anions)",
+    "url": "https://www.youtube.com/watch?v=CMeuwXDpNLo",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S2.1.1"
+    ],
+    "source": "https://www.msjchem.com/structure-21-the-ionic-model.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S2.1",
+    "hl": false,
+    "title": "Ionic bonding and the structure of ionic compounds",
+    "url": "https://www.youtube.com/watch?v=-bfMHJ9qckI",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S2.1.2"
+    ],
+    "source": "https://www.msjchem.com/structure-21-the-ionic-model.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S2.1",
+    "hl": false,
+    "title": "The naming and formulas of ionic compounds",
+    "url": "https://www.youtube.com/watch?v=F1FZntPaDNY",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S2.1.2"
+    ],
+    "source": "https://www.msjchem.com/structure-21-the-ionic-model.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S2.1",
+    "hl": false,
+    "title": "Polyatomic ions",
+    "url": "https://www.youtube.com/watch?v=Kgvr2U5-Jd8",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S2.1.2"
+    ],
+    "source": "https://www.msjchem.com/structure-21-the-ionic-model.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S2.1",
+    "hl": false,
+    "title": "The properties of ionic compounds (solubility, melting point and electrical conductivity)",
+    "url": "https://www.youtube.com/watch?v=WeX06T_FDq4",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S2.1.3"
+    ],
+    "source": "https://www.msjchem.com/structure-21-the-ionic-model.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S2.1",
+    "hl": false,
+    "title": "The factors that affect the lattice enthalpy of ionic compounds",
+    "url": "https://www.youtube.com/watch?v=gy482pP39ho",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S2.1.3"
+    ],
+    "source": "https://www.msjchem.com/structure-21-the-ionic-model.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S2.1",
+    "hl": false,
+    "title": "MSJ Chem S2.1 SL/HL video lesson collection",
+    "url": "https://www.msjchem.com/structure-21-the-ionic-model.html",
+    "provider": "MSJ Chem",
+    "kind": "collection",
+    "outcomes": [],
+    "source": "https://www.msjchem.com/structure-21-the-ionic-model.html",
+    "verified": true,
+    "verification": "Creator-hosted topic collection retrieved 2026-11-07."
+  },
+  {
+    "topic": "S2.2",
+    "hl": false,
+    "title": "The octet rule and the exceptions to the octet rule",
+    "url": "https://www.youtube.com/watch?v=Ryr3UICA6Ao",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S2.2.1",
+      "S2.2.2"
+    ],
+    "source": "https://www.msjchem.com/structure-22-the-covalent-model.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S2.2",
+    "hl": false,
+    "title": "Covalent bonding",
+    "url": "https://www.youtube.com/watch?v=RD1VHeSyNA0",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S2.2.1",
+      "S2.2.2"
+    ],
+    "source": "https://www.msjchem.com/structure-22-the-covalent-model.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S2.2",
+    "hl": false,
+    "title": "Lewis structures",
+    "url": "https://www.youtube.com/watch?v=gZC0BgiSDSg",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S2.2.1",
+      "S2.2.2"
+    ],
+    "source": "https://www.msjchem.com/structure-22-the-covalent-model.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S2.2",
+    "hl": false,
+    "title": "Coordinate covalent bonds (note that the IB now refers to these type of bonds as coordination bonds according to the IUPAC definition )",
+    "url": "https://www.youtube.com/watch?v=VsUNcGYVcDs",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S2.2.3"
+    ],
+    "source": "https://www.msjchem.com/structure-22-the-covalent-model.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S2.2",
+    "hl": false,
+    "title": "Using the VSEPR theory to predict the molecular and electron domain geometries for atoms and ions with up to four electron domains",
+    "url": "https://www.youtube.com/watch?v=LkoItNa7sbo",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S2.2.4"
+    ],
+    "source": "https://www.msjchem.com/structure-22-the-covalent-model.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S2.2",
+    "hl": false,
+    "title": "Polar and non-polar covalent bonds",
+    "url": "https://www.youtube.com/watch?v=s1f7DzYF0jI",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S2.2.5"
+    ],
+    "source": "https://www.msjchem.com/structure-22-the-covalent-model.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S2.2",
+    "hl": false,
+    "title": "Polar and non-polar molecules",
+    "url": "https://www.youtube.com/watch?v=K0BZT4U4vUE",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S2.2.6"
+    ],
+    "source": "https://www.msjchem.com/structure-22-the-covalent-model.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S2.2",
+    "hl": false,
+    "title": "The properties of simple molecular substances and giant covalent structures (note that the IB now refers to giant covalent structures as covalent network structures)",
+    "url": "https://www.youtube.com/watch?v=Nn7z99kdFFI",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S2.2.7"
+    ],
+    "source": "https://www.msjchem.com/structure-22-the-covalent-model.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S2.2",
+    "hl": false,
+    "title": "The allotropes of carbon",
+    "url": "https://www.youtube.com/watch?v=XvZmLUGVGW4",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S2.2.7"
+    ],
+    "source": "https://www.msjchem.com/structure-22-the-covalent-model.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S2.2",
+    "hl": false,
+    "title": "Intermolecular forces",
+    "url": "https://www.youtube.com/watch?v=VdZ7drbufZQ",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S2.2.8",
+      "S2.2.9"
+    ],
+    "source": "https://www.msjchem.com/structure-22-the-covalent-model.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S2.2",
+    "hl": false,
+    "title": "Solubility and intermolecular forces",
+    "url": "https://www.youtube.com/watch?v=NIuf0bFrFY8",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S2.2.8",
+      "S2.2.9"
+    ],
+    "source": "https://www.msjchem.com/structure-22-the-covalent-model.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S2.2",
+    "hl": false,
+    "title": "Electrical conductivity (note that metallic bonding is covered in structure 2",
+    "url": "https://www.youtube.com/watch?v=A7w9TLKgpTw",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S2.2.8",
+      "S2.2.9"
+    ],
+    "source": "https://www.msjchem.com/structure-22-the-covalent-model.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S2.2",
+    "hl": false,
+    "title": "How to calculate the retention factor (or retardation factor)",
+    "url": "https://www.youtube.com/watch?v=nTqiKUcIMfc",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S2.2.10"
+    ],
+    "source": "https://www.msjchem.com/structure-22-the-covalent-model.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S2.2",
+    "hl": false,
+    "title": "MSJ Chem S2.2 SL/HL video lesson collection",
+    "url": "https://www.msjchem.com/structure-22-the-covalent-model.html",
+    "provider": "MSJ Chem",
+    "kind": "collection",
+    "outcomes": [],
+    "source": "https://www.msjchem.com/structure-22-the-covalent-model.html",
+    "verified": true,
+    "verification": "Creator-hosted topic collection retrieved 2026-11-07."
+  },
+  {
+    "topic": "S2.2",
+    "hl": true,
+    "title": "Resonance structures",
+    "url": "https://www.youtube.com/watch?v=6TdcmfLRJDI",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S2.2.11"
+    ],
+    "source": "https://www.msjchem.com/structure-22-the-covalent-model-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S2.2",
+    "hl": true,
+    "title": "Molecules and ions with delocalised electrons",
+    "url": "https://www.youtube.com/watch?v=A5VLKqJaQvo",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S2.2.11"
+    ],
+    "source": "https://www.msjchem.com/structure-22-the-covalent-model-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S2.2",
+    "hl": true,
+    "title": "The physical and chemical evidence for the structure of benzene",
+    "url": "https://www.youtube.com/watch?v=558cNrwmj1I",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S2.2.12"
+    ],
+    "source": "https://www.msjchem.com/structure-22-the-covalent-model-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S2.2",
+    "hl": true,
+    "title": "How to deduce the molecular and electron domain geometries for molecules and ions with up to six electron domains",
+    "url": "https://www.youtube.com/watch?v=W-NccY1Wi1s",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S2.2.13"
+    ],
+    "source": "https://www.msjchem.com/structure-22-the-covalent-model-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S2.2",
+    "hl": true,
+    "title": "How to determine formal charges",
+    "url": "https://www.youtube.com/watch?v=2iK5uAWJ628",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S2.2.14"
+    ],
+    "source": "https://www.msjchem.com/structure-22-the-covalent-model-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S2.2",
+    "hl": true,
+    "title": "Sigma and pi bonds",
+    "url": "https://www.youtube.com/watch?v=ftw16bkTkRM",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S2.2.15"
+    ],
+    "source": "https://www.msjchem.com/structure-22-the-covalent-model-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S2.2",
+    "hl": true,
+    "title": "Sp, sp2 and sp3 hybridisation",
+    "url": "https://www.youtube.com/watch?v=N_kLdUvEwXw",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S2.2.16"
+    ],
+    "source": "https://www.msjchem.com/structure-22-the-covalent-model-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S2.2",
+    "hl": true,
+    "title": "MSJ Chem S2.2 HL video lesson collection",
+    "url": "https://www.msjchem.com/structure-22-the-covalent-model-hl.html",
+    "provider": "MSJ Chem",
+    "kind": "collection",
+    "outcomes": [],
+    "source": "https://www.msjchem.com/structure-22-the-covalent-model-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted topic collection retrieved 2026-11-07."
+  },
+  {
+    "topic": "S2.3",
+    "hl": false,
+    "title": "Metallic bonding and the properties of metals",
+    "url": "https://www.youtube.com/watch?v=7zaFJ7eP9R4",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S2.3.1"
+    ],
+    "source": "https://www.msjchem.com/structure-23-the-metallic-model.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S2.3",
+    "hl": false,
+    "title": "The factors that affect the strength of the metallic bond",
+    "url": "https://www.youtube.com/watch?v=3zLSrdFbj7c",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S2.3.2"
+    ],
+    "source": "https://www.msjchem.com/structure-23-the-metallic-model.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S2.3",
+    "hl": false,
+    "title": "MSJ Chem S2.3 SL/HL video lesson collection",
+    "url": "https://www.msjchem.com/structure-23-the-metallic-model.html",
+    "provider": "MSJ Chem",
+    "kind": "collection",
+    "outcomes": [],
+    "source": "https://www.msjchem.com/structure-23-the-metallic-model.html",
+    "verified": true,
+    "verification": "Creator-hosted topic collection retrieved 2026-11-07."
+  },
+  {
+    "topic": "S2.4",
+    "hl": false,
+    "title": "How to use the bonding triangle to determine the type of bonding in a substance",
+    "url": "https://www.youtube.com/watch?v=CrCnX0IWpmo",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S2.4.1",
+      "S2.4.2"
+    ],
+    "source": "https://www.msjchem.com/structure-24-from-models-to-materials.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S2.4",
+    "hl": false,
+    "title": "Alloys and their properties",
+    "url": "https://www.youtube.com/watch?v=xqiqVDZfWAs",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S2.4.3"
+    ],
+    "source": "https://www.msjchem.com/structure-24-from-models-to-materials.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S2.4",
+    "hl": false,
+    "title": "Addition polymers",
+    "url": "https://www.youtube.com/watch?v=iK1ETdL6lFs",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S2.4.5"
+    ],
+    "source": "https://www.msjchem.com/structure-24-from-models-to-materials.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S2.4",
+    "hl": false,
+    "title": "Condensation polymers",
+    "url": "https://www.youtube.com/watch?v=tiIXJ00u2ZE",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S2.4.6"
+    ],
+    "source": "https://www.msjchem.com/structure-24-from-models-to-materials.html",
+    "verified": true,
+    "verification": "Embedded YouTube ID retrieved from creator-hosted topic page 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S2.4",
+    "hl": false,
+    "title": "Condensation polymers",
+    "url": "https://www.youtube.com/watch?v=23Q5POcRRGA",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S2.4.6"
+    ],
+    "source": "https://www.msjchem.com/structure-24-from-models-to-materials.html",
+    "verified": true,
+    "verification": "Embedded YouTube ID retrieved from creator-hosted topic page 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S2.4",
+    "hl": false,
+    "title": "Video tutorial for S2.4",
+    "url": "https://www.youtube.com/watch?v=iEtM7rKFrww",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S2.4.6"
+    ],
+    "source": "https://www.msjchem.com/structure-24-from-models-to-materials.html",
+    "verified": true,
+    "verification": "Embedded YouTube ID retrieved from creator-hosted topic page 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S2.4",
+    "hl": false,
+    "title": "MSJ Chem S2.4 SL/HL video lesson collection",
+    "url": "https://www.msjchem.com/structure-24-from-models-to-materials.html",
+    "provider": "MSJ Chem",
+    "kind": "collection",
+    "outcomes": [],
+    "source": "https://www.msjchem.com/structure-24-from-models-to-materials.html",
+    "verified": true,
+    "verification": "Creator-hosted topic collection retrieved 2026-11-07."
+  },
+  {
+    "topic": "S3.1",
+    "hl": false,
+    "title": "Groups, periods and the names of the groups",
+    "url": "https://www.youtube.com/watch?v=Baso_7j0z0M",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S3.1.1",
+      "S3.1.2"
+    ],
+    "source": "https://www.msjchem.com/structure-31-the-periodic-table--classification-of-elements.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S3.1",
+    "hl": false,
+    "title": "The blocks of the periodic table and electron configurations",
+    "url": "https://www.youtube.com/watch?v=OkZW9VU8ab0",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S3.1.1",
+      "S3.1.2"
+    ],
+    "source": "https://www.msjchem.com/structure-31-the-periodic-table--classification-of-elements.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S3.1",
+    "hl": false,
+    "title": "The properties of metals and non-metals",
+    "url": "https://www.youtube.com/watch?v=6QwnNXMZRWo",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S3.1.1",
+      "S3.1.2"
+    ],
+    "source": "https://www.msjchem.com/structure-31-the-periodic-table--classification-of-elements.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S3.1",
+    "hl": false,
+    "title": "Metalloids and their properties",
+    "url": "https://www.youtube.com/watch?v=tpfg7J-6v6k",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S3.1.1",
+      "S3.1.2"
+    ],
+    "source": "https://www.msjchem.com/structure-31-the-periodic-table--classification-of-elements.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S3.1",
+    "hl": false,
+    "title": "Electron shielding and effective nuclear charge",
+    "url": "https://www.youtube.com/watch?v=A5t1maDhp2A",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S3.1.3"
+    ],
+    "source": "https://www.msjchem.com/structure-31-the-periodic-table--classification-of-elements.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S3.1",
+    "hl": false,
+    "title": "Atomic radius",
+    "url": "https://www.youtube.com/watch?v=wP7WscAX9hI",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S3.1.3"
+    ],
+    "source": "https://www.msjchem.com/structure-31-the-periodic-table--classification-of-elements.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S3.1",
+    "hl": false,
+    "title": "Ionic radius",
+    "url": "https://www.youtube.com/watch?v=GyF0aQOeZHk",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S3.1.3"
+    ],
+    "source": "https://www.msjchem.com/structure-31-the-periodic-table--classification-of-elements.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S3.1",
+    "hl": false,
+    "title": "Ionisation energy",
+    "url": "https://www.youtube.com/watch?v=SfNwivyO_hk",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S3.1.3"
+    ],
+    "source": "https://www.msjchem.com/structure-31-the-periodic-table--classification-of-elements.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S3.1",
+    "hl": false,
+    "title": "Electron affinity",
+    "url": "https://www.youtube.com/watch?v=pfflMRwXyoQ",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S3.1.3"
+    ],
+    "source": "https://www.msjchem.com/structure-31-the-periodic-table--classification-of-elements.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S3.1",
+    "hl": false,
+    "title": "Electronegativity",
+    "url": "https://www.youtube.com/watch?v=9OU7eCnQj28",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S3.1.3"
+    ],
+    "source": "https://www.msjchem.com/structure-31-the-periodic-table--classification-of-elements.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S3.1",
+    "hl": false,
+    "title": "Metallic character",
+    "url": "https://www.youtube.com/watch?v=WOttYXEUCfU",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S3.1.4"
+    ],
+    "source": "https://www.msjchem.com/structure-31-the-periodic-table--classification-of-elements.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S3.1",
+    "hl": false,
+    "title": "The group 1 metals",
+    "url": "https://www.youtube.com/watch?v=mHmewK4RoPw",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S3.1.4"
+    ],
+    "source": "https://www.msjchem.com/structure-31-the-periodic-table--classification-of-elements.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S3.1",
+    "hl": false,
+    "title": "The group 17 elements",
+    "url": "https://www.youtube.com/watch?v=adrB_L0W-ik",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S3.1.4"
+    ],
+    "source": "https://www.msjchem.com/structure-31-the-periodic-table--classification-of-elements.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S3.1",
+    "hl": false,
+    "title": "The acid-base properties of the period 3 oxides",
+    "url": "https://www.youtube.com/watch?v=yHWhUQazDd0",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S3.1.5"
+    ],
+    "source": "https://www.msjchem.com/structure-31-the-periodic-table--classification-of-elements.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S3.1",
+    "hl": false,
+    "title": "Acid deposition (acid rain)",
+    "url": "https://www.youtube.com/watch?v=vx0edD4obc0",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S3.1.5"
+    ],
+    "source": "https://www.msjchem.com/structure-31-the-periodic-table--classification-of-elements.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S3.1",
+    "hl": false,
+    "title": "Ocean acidification",
+    "url": "https://www.youtube.com/watch?v=zyn9vL4EIvY",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S3.1.5"
+    ],
+    "source": "https://www.msjchem.com/structure-31-the-periodic-table--classification-of-elements.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S3.1",
+    "hl": false,
+    "title": "How to determine oxidation states",
+    "url": "https://www.youtube.com/watch?v=29RxOlLVkWI",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S3.1.6"
+    ],
+    "source": "https://www.msjchem.com/structure-31-the-periodic-table--classification-of-elements.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S3.1",
+    "hl": false,
+    "title": "MSJ Chem S3.1 SL/HL video lesson collection",
+    "url": "https://www.msjchem.com/structure-31-the-periodic-table--classification-of-elements.html",
+    "provider": "MSJ Chem",
+    "kind": "collection",
+    "outcomes": [],
+    "source": "https://www.msjchem.com/structure-31-the-periodic-table--classification-of-elements.html",
+    "verified": true,
+    "verification": "Creator-hosted topic collection retrieved 2026-11-07."
+  },
+  {
+    "topic": "S3.1",
+    "hl": true,
+    "title": "The discontinuities of first ionisation energy across a period",
+    "url": "https://www.youtube.com/watch?v=KmyK4cAMMHY",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S3.1.7"
+    ],
+    "source": "https://www.msjchem.com/structure-31-the-periodic-table-classification-of-elements-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S3.1",
+    "hl": true,
+    "title": "The transition elements",
+    "url": "https://www.youtube.com/watch?v=_GEnR11wrhU",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S3.1.8"
+    ],
+    "source": "https://www.msjchem.com/structure-31-the-periodic-table-classification-of-elements-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S3.1",
+    "hl": true,
+    "title": "The magnetic properties of the transition elements",
+    "url": "https://www.youtube.com/watch?v=zQgyrBnsprU",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S3.1.8"
+    ],
+    "source": "https://www.msjchem.com/structure-31-the-periodic-table-classification-of-elements-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S3.1",
+    "hl": true,
+    "title": "The structure and bonding of complex ions",
+    "url": "https://www.youtube.com/watch?v=0xlzyIcAqgs",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S3.1.8"
+    ],
+    "source": "https://www.msjchem.com/structure-31-the-periodic-table-classification-of-elements-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S3.1",
+    "hl": true,
+    "title": "Ligands",
+    "url": "https://www.youtube.com/watch?v=o0Cg4JyDyKg",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S3.1.8"
+    ],
+    "source": "https://www.msjchem.com/structure-31-the-periodic-table-classification-of-elements-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S3.1",
+    "hl": true,
+    "title": "How to deduce the charge and oxidation state of a central metal ion",
+    "url": "https://www.youtube.com/watch?v=X5Zuz-u8o7s",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S3.1.8"
+    ],
+    "source": "https://www.msjchem.com/structure-31-the-periodic-table-classification-of-elements-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S3.1",
+    "hl": true,
+    "title": "The variable oxidation states of the transition elements",
+    "url": "https://www.youtube.com/watch?v=oDl78ksQ8C4",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S3.1.9"
+    ],
+    "source": "https://www.msjchem.com/structure-31-the-periodic-table-classification-of-elements-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S3.1",
+    "hl": true,
+    "title": "Colour of complex ions",
+    "url": "https://www.youtube.com/watch?v=8lfc_1FLZnk",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S3.1.10"
+    ],
+    "source": "https://www.msjchem.com/structure-31-the-periodic-table-classification-of-elements-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S3.1",
+    "hl": true,
+    "title": "MSJ Chem S3.1 HL video lesson collection",
+    "url": "https://www.msjchem.com/structure-31-the-periodic-table-classification-of-elements-hl.html",
+    "provider": "MSJ Chem",
+    "kind": "collection",
+    "outcomes": [],
+    "source": "https://www.msjchem.com/structure-31-the-periodic-table-classification-of-elements-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted topic collection retrieved 2026-11-07."
+  },
+  {
+    "topic": "S3.2",
+    "hl": false,
+    "title": "The different types of structural formulas",
+    "url": "https://www.youtube.com/watch?v=mHkojh7Nt4M",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S3.2.1"
+    ],
+    "source": "https://www.msjchem.com/structure-32-functional-groups-classification-of-organic-compounds.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S3.2",
+    "hl": false,
+    "title": "Functional groups",
+    "url": "https://www.youtube.com/watch?v=Cf0GXlni0T0",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S3.2.2"
+    ],
+    "source": "https://www.msjchem.com/structure-32-functional-groups-classification-of-organic-compounds.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S3.2",
+    "hl": false,
+    "title": "How to identify functional groups",
+    "url": "https://www.youtube.com/watch?v=Lwxjwqyhux0",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S3.2.2"
+    ],
+    "source": "https://www.msjchem.com/structure-32-functional-groups-classification-of-organic-compounds.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S3.2",
+    "hl": false,
+    "title": "The features of a homologous series",
+    "url": "https://www.youtube.com/watch?v=v9AR5ex3FR4",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S3.2.3",
+      "S3.2.4"
+    ],
+    "source": "https://www.msjchem.com/structure-32-functional-groups-classification-of-organic-compounds.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S3.2",
+    "hl": false,
+    "title": "The boiling points of each homologous series",
+    "url": "https://www.youtube.com/watch?v=7G-lmCpq4do",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S3.2.3",
+      "S3.2.4"
+    ],
+    "source": "https://www.msjchem.com/structure-32-functional-groups-classification-of-organic-compounds.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S3.2",
+    "hl": false,
+    "title": "How to name straight-chain and cyclic alkanes",
+    "url": "https://www.youtube.com/watch?v=kFpdQ4WQ8Uc",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S3.2.5"
+    ],
+    "source": "https://www.msjchem.com/structure-32-functional-groups-classification-of-organic-compounds.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S3.2",
+    "hl": false,
+    "title": "How to name branched-chain alkanes",
+    "url": "https://www.youtube.com/watch?v=8VoECj3kx5M",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S3.2.5"
+    ],
+    "source": "https://www.msjchem.com/structure-32-functional-groups-classification-of-organic-compounds.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S3.2",
+    "hl": false,
+    "title": "How to name alkenes",
+    "url": "https://www.youtube.com/watch?v=mw7OWW1Rp4U",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S3.2.5"
+    ],
+    "source": "https://www.msjchem.com/structure-32-functional-groups-classification-of-organic-compounds.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S3.2",
+    "hl": false,
+    "title": "How to name alkynes",
+    "url": "https://www.youtube.com/watch?v=XHUCH1ZqPDI",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S3.2.5"
+    ],
+    "source": "https://www.msjchem.com/structure-32-functional-groups-classification-of-organic-compounds.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S3.2",
+    "hl": false,
+    "title": "How to name alcohols",
+    "url": "https://www.youtube.com/watch?v=moBsv676id4",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S3.2.5"
+    ],
+    "source": "https://www.msjchem.com/structure-32-functional-groups-classification-of-organic-compounds.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S3.2",
+    "hl": false,
+    "title": "How to name aldehydes and ketones",
+    "url": "https://www.youtube.com/watch?v=xJuXKno4Jn8",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S3.2.5"
+    ],
+    "source": "https://www.msjchem.com/structure-32-functional-groups-classification-of-organic-compounds.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S3.2",
+    "hl": false,
+    "title": "How to name carboxylic acids",
+    "url": "https://www.youtube.com/watch?v=QgInM78K_hY",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S3.2.5"
+    ],
+    "source": "https://www.msjchem.com/structure-32-functional-groups-classification-of-organic-compounds.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S3.2",
+    "hl": false,
+    "title": "How to name halogenoalkanes",
+    "url": "https://www.youtube.com/watch?v=9mBIVCLTvXI",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S3.2.5"
+    ],
+    "source": "https://www.msjchem.com/structure-32-functional-groups-classification-of-organic-compounds.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S3.2",
+    "hl": false,
+    "title": "Structural isomerism",
+    "url": "https://www.youtube.com/watch?v=HwJj97YLXDY",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S3.2.6"
+    ],
+    "source": "https://www.msjchem.com/structure-32-functional-groups-classification-of-organic-compounds.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S3.2",
+    "hl": false,
+    "title": "Primary, secondary and tertiary alcohols, amines and halogenoalkanes",
+    "url": "https://www.youtube.com/watch?v=VzSI26MrNRM",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S3.2.6"
+    ],
+    "source": "https://www.msjchem.com/structure-32-functional-groups-classification-of-organic-compounds.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S3.2",
+    "hl": false,
+    "title": "MSJ Chem S3.2 SL/HL video lesson collection",
+    "url": "https://www.msjchem.com/structure-32-functional-groups-classification-of-organic-compounds.html",
+    "provider": "MSJ Chem",
+    "kind": "collection",
+    "outcomes": [],
+    "source": "https://www.msjchem.com/structure-32-functional-groups-classification-of-organic-compounds.html",
+    "verified": true,
+    "verification": "Creator-hosted topic collection retrieved 2026-11-07."
+  },
+  {
+    "topic": "S3.2",
+    "hl": true,
+    "title": "Cis-trans isomerism",
+    "url": "https://www.youtube.com/watch?v=JQlBvKqPSk0",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S3.2.7"
+    ],
+    "source": "https://www.msjchem.com/structure-32-functional-groups-classification-of-organic-compounds-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S3.2",
+    "hl": true,
+    "title": "Stereoisomerism",
+    "url": "https://www.youtube.com/watch?v=eV_vCB8zGUE",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S3.2.7"
+    ],
+    "source": "https://www.msjchem.com/structure-32-functional-groups-classification-of-organic-compounds-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S3.2",
+    "hl": true,
+    "title": "How to distinguish between two enantiomers using a polarimeter",
+    "url": "https://www.youtube.com/watch?v=IT_WOJpIrHE",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S3.2.7"
+    ],
+    "source": "https://www.msjchem.com/structure-32-functional-groups-classification-of-organic-compounds-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S3.2",
+    "hl": true,
+    "title": "IR spectroscopy",
+    "url": "https://www.youtube.com/watch?v=dDEr1C-8Ung",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S3.2.9"
+    ],
+    "source": "https://www.msjchem.com/structure-32-functional-groups-classification-of-organic-compounds-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S3.2",
+    "hl": true,
+    "title": "1hnmr",
+    "url": "https://www.youtube.com/watch?v=qNPNJUqNc80",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S3.2.10"
+    ],
+    "source": "https://www.msjchem.com/structure-32-functional-groups-classification-of-organic-compounds-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S3.2",
+    "hl": true,
+    "title": "How to determine the number of peaks in a 1H NMR spectrum",
+    "url": "https://www.youtube.com/watch?v=gWBXbjp5Nmk",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S3.2.10"
+    ],
+    "source": "https://www.msjchem.com/structure-32-functional-groups-classification-of-organic-compounds-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S3.2",
+    "hl": true,
+    "title": "Splitting patterns",
+    "url": "https://www.youtube.com/watch?v=bKgy5zhI4Kg",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S3.2.11"
+    ],
+    "source": "https://www.msjchem.com/structure-32-functional-groups-classification-of-organic-compounds-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S3.2",
+    "hl": true,
+    "title": "Using multiple techniques to determine the identity of an unknown compound",
+    "url": "https://www.youtube.com/watch?v=W5VNPyCeF7o",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "S3.2.12"
+    ],
+    "source": "https://www.msjchem.com/structure-32-functional-groups-classification-of-organic-compounds-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "S3.2",
+    "hl": true,
+    "title": "MSJ Chem S3.2 HL video lesson collection",
+    "url": "https://www.msjchem.com/structure-32-functional-groups-classification-of-organic-compounds-hl.html",
+    "provider": "MSJ Chem",
+    "kind": "collection",
+    "outcomes": [],
+    "source": "https://www.msjchem.com/structure-32-functional-groups-classification-of-organic-compounds-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted topic collection retrieved 2026-11-07."
+  },
+  {
+    "topic": "R1.1",
+    "hl": false,
+    "title": "Heat and temperature",
+    "url": "https://www.youtube.com/watch?v=SKaDtc0qmJY",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R1.1.1"
+    ],
+    "source": "https://www.msjchem.com/reactivity-11-measuring-enthalpy-changes.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R1.1",
+    "hl": false,
+    "title": "Exothermic and endothermic reactions",
+    "url": "https://www.youtube.com/watch?v=DP8zzNeV1fA",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R1.1.2",
+      "R1.1.3"
+    ],
+    "source": "https://www.msjchem.com/reactivity-11-measuring-enthalpy-changes.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R1.1",
+    "hl": false,
+    "title": "Enthalpy and enthalpy change",
+    "url": "https://www.youtube.com/watch?v=10hpu9lGlPQ",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R1.1.4"
+    ],
+    "source": "https://www.msjchem.com/reactivity-11-measuring-enthalpy-changes.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R1.1",
+    "hl": false,
+    "title": "Calculating the enthalpy change using q=mc ΔT",
+    "url": "https://www.youtube.com/watch?v=7Sxr3_YqBMY",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R1.1.4"
+    ],
+    "source": "https://www.msjchem.com/reactivity-11-measuring-enthalpy-changes.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R1.1",
+    "hl": false,
+    "title": "MSJ Chem R1.1 SL/HL video lesson collection",
+    "url": "https://www.msjchem.com/reactivity-11-measuring-enthalpy-changes.html",
+    "provider": "MSJ Chem",
+    "kind": "collection",
+    "outcomes": [],
+    "source": "https://www.msjchem.com/reactivity-11-measuring-enthalpy-changes.html",
+    "verified": true,
+    "verification": "Creator-hosted topic collection retrieved 2026-11-07."
+  },
+  {
+    "topic": "R1.2",
+    "hl": false,
+    "title": "How to calculate the enthalpy change for a reaction using average bond enthalpy values",
+    "url": "https://www.youtube.com/watch?v=DQ4ppDwGCD8",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R1.2.1"
+    ],
+    "source": "https://www.msjchem.com/reactivity-12-energy-cycles-in-reactions.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R1.2",
+    "hl": false,
+    "title": "How to calculate the enthalpy change for a reaction from multiple reactions",
+    "url": "https://www.youtube.com/watch?v=-WWecSdZq-0",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R1.2.2"
+    ],
+    "source": "https://www.msjchem.com/reactivity-12-energy-cycles-in-reactions.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R1.2",
+    "hl": false,
+    "title": "MSJ Chem R1.2 SL/HL video lesson collection",
+    "url": "https://www.msjchem.com/reactivity-12-energy-cycles-in-reactions.html",
+    "provider": "MSJ Chem",
+    "kind": "collection",
+    "outcomes": [],
+    "source": "https://www.msjchem.com/reactivity-12-energy-cycles-in-reactions.html",
+    "verified": true,
+    "verification": "Creator-hosted topic collection retrieved 2026-11-07."
+  },
+  {
+    "topic": "R1.2",
+    "hl": true,
+    "title": "How to calculate the enthalpy change for a reaction using enthalpy of formation data",
+    "url": "https://www.youtube.com/watch?v=6UW38cjdPT8",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R1.2.3",
+      "R1.2.4"
+    ],
+    "source": "https://www.msjchem.com/reactivity-12-energy-cycles-in-reactions-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R1.2",
+    "hl": true,
+    "title": "How to calculate the enthalpy change for a reaction using enthalpy of combustion data",
+    "url": "https://www.youtube.com/watch?v=wZYOGgc25yQ",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R1.2.3",
+      "R1.2.4"
+    ],
+    "source": "https://www.msjchem.com/reactivity-12-energy-cycles-in-reactions-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R1.2",
+    "hl": true,
+    "title": "The steps of a Born-Haber cycle",
+    "url": "https://www.youtube.com/watch?v=VT8CSG86GRI",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R1.2.5"
+    ],
+    "source": "https://www.msjchem.com/reactivity-12-energy-cycles-in-reactions-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R1.2",
+    "hl": true,
+    "title": "Using a Born Haber cycle to calculate the enthalpy of formation of magnesium chloride",
+    "url": "https://www.youtube.com/watch?v=SYFkxC7v3ZY",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R1.2.5"
+    ],
+    "source": "https://www.msjchem.com/reactivity-12-energy-cycles-in-reactions-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R1.2",
+    "hl": true,
+    "title": "Using a Born Haber cycle to calculate the enthalpy of formation of calcium oxide",
+    "url": "https://www.youtube.com/watch?v=ibkYiOQfpN4",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R1.2.5"
+    ],
+    "source": "https://www.msjchem.com/reactivity-12-energy-cycles-in-reactions-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R1.2",
+    "hl": true,
+    "title": "Using a Born Haber cycle to calculate the enthalpy of formation of sodium oxide",
+    "url": "https://www.youtube.com/watch?v=viixYfEJDZ8",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R1.2.5"
+    ],
+    "source": "https://www.msjchem.com/reactivity-12-energy-cycles-in-reactions-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R1.2",
+    "hl": true,
+    "title": "MSJ Chem R1.2 HL video lesson collection",
+    "url": "https://www.msjchem.com/reactivity-12-energy-cycles-in-reactions-hl.html",
+    "provider": "MSJ Chem",
+    "kind": "collection",
+    "outcomes": [],
+    "source": "https://www.msjchem.com/reactivity-12-energy-cycles-in-reactions-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted topic collection retrieved 2026-11-07."
+  },
+  {
+    "topic": "R1.3",
+    "hl": false,
+    "title": "The combustion reactions of hydrocarbons (alkanes)",
+    "url": "https://www.youtube.com/watch?v=3FeHu3xHMV0",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R1.3.1",
+      "R1.3.2"
+    ],
+    "source": "https://www.msjchem.com/reactivity-13-energy-from-fuels.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R1.3",
+    "hl": false,
+    "title": "The combustion reactions of alcohols",
+    "url": "https://www.youtube.com/watch?v=9pwkIJ0Hmnw",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R1.3.1",
+      "R1.3.2"
+    ],
+    "source": "https://www.msjchem.com/reactivity-13-energy-from-fuels.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R1.3",
+    "hl": false,
+    "title": "The formation of fossil fuels",
+    "url": "https://www.youtube.com/watch?v=D2WqoK6vAd0",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R1.3.3"
+    ],
+    "source": "https://www.msjchem.com/reactivity-13-energy-from-fuels.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R1.3",
+    "hl": false,
+    "title": "The advantages and disadvantages of fossil fuels",
+    "url": "https://www.youtube.com/watch?v=tMwFoTAWYZo",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R1.3.3"
+    ],
+    "source": "https://www.msjchem.com/reactivity-13-energy-from-fuels.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R1.3",
+    "hl": false,
+    "title": "Biofuels",
+    "url": "https://www.youtube.com/watch?v=BLkI1qNJeq8",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R1.3.4"
+    ],
+    "source": "https://www.msjchem.com/reactivity-13-energy-from-fuels.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R1.3",
+    "hl": false,
+    "title": "Photosynthesis",
+    "url": "https://www.youtube.com/watch?v=XQEl0DOnyzw",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R1.3.4"
+    ],
+    "source": "https://www.msjchem.com/reactivity-13-energy-from-fuels.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R1.3",
+    "hl": false,
+    "title": "Fuel cells",
+    "url": "https://www.youtube.com/watch?v=-lQrMbK7bsE",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R1.3.5"
+    ],
+    "source": "https://www.msjchem.com/reactivity-13-energy-from-fuels.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R1.3",
+    "hl": false,
+    "title": "MSJ Chem R1.3 SL/HL video lesson collection",
+    "url": "https://www.msjchem.com/reactivity-13-energy-from-fuels.html",
+    "provider": "MSJ Chem",
+    "kind": "collection",
+    "outcomes": [],
+    "source": "https://www.msjchem.com/reactivity-13-energy-from-fuels.html",
+    "verified": true,
+    "verification": "Creator-hosted topic collection retrieved 2026-11-07."
+  },
+  {
+    "topic": "R1.4",
+    "hl": true,
+    "title": "Entropy",
+    "url": "https://www.youtube.com/watch?v=_6sQeo18yhs",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R1.4.1"
+    ],
+    "source": "https://www.msjchem.com/reactivity-14-entropy-and-spontaneity-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R1.4",
+    "hl": true,
+    "title": "Predicting entropy changes",
+    "url": "https://www.youtube.com/watch?v=YcyXxTgNnH0",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R1.4.1"
+    ],
+    "source": "https://www.msjchem.com/reactivity-14-entropy-and-spontaneity-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R1.4",
+    "hl": true,
+    "title": "Calculating entropy changes",
+    "url": "https://www.youtube.com/watch?v=Hht2wcWq3fo",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R1.4.1"
+    ],
+    "source": "https://www.msjchem.com/reactivity-14-entropy-and-spontaneity-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R1.4",
+    "hl": true,
+    "title": "Entropy and spontaneity",
+    "url": "https://www.youtube.com/watch?v=QQ15EW6E6OM",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R1.4.1"
+    ],
+    "source": "https://www.msjchem.com/reactivity-14-entropy-and-spontaneity-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R1.4",
+    "hl": true,
+    "title": "How to calculate the Gibbs energy change for a reaction",
+    "url": "https://www.youtube.com/watch?v=HJQ2s6vTaX4",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R1.4.2",
+      "R1.4.3"
+    ],
+    "source": "https://www.msjchem.com/reactivity-14-entropy-and-spontaneity-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R1.4",
+    "hl": true,
+    "title": "The effect of temperature, Δ H and Δ S on the spontaneity of a reaction",
+    "url": "https://www.youtube.com/watch?v=_llGPQLZMTY",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R1.4.2",
+      "R1.4.3"
+    ],
+    "source": "https://www.msjchem.com/reactivity-14-entropy-and-spontaneity-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R1.4",
+    "hl": true,
+    "title": "Calculating Gibbs energy change using Gibbs energy of formation values",
+    "url": "https://www.youtube.com/watch?v=szgSQ6pmqJE",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R1.4.2",
+      "R1.4.3"
+    ],
+    "source": "https://www.msjchem.com/reactivity-14-entropy-and-spontaneity-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R1.4",
+    "hl": true,
+    "title": "The relationship between the Gibbs energy change and equilibrium",
+    "url": "https://www.youtube.com/watch?v=8Cs4PUO_1JA",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R1.4.4"
+    ],
+    "source": "https://www.msjchem.com/reactivity-14-entropy-and-spontaneity-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R1.4",
+    "hl": true,
+    "title": "MSJ Chem R1.4 HL video lesson collection",
+    "url": "https://www.msjchem.com/reactivity-14-entropy-and-spontaneity-hl.html",
+    "provider": "MSJ Chem",
+    "kind": "collection",
+    "outcomes": [],
+    "source": "https://www.msjchem.com/reactivity-14-entropy-and-spontaneity-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted topic collection retrieved 2026-11-07."
+  },
+  {
+    "topic": "R2.1",
+    "hl": false,
+    "title": "How to balance chemical equations",
+    "url": "https://www.youtube.com/watch?v=bY_SSIIciL0",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R2.1.1",
+      "R2.1.2"
+    ],
+    "source": "https://www.msjchem.com/reactivity-21-how-much-the-amount-of-chemical-change.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R2.1",
+    "hl": false,
+    "title": "Molar ratios",
+    "url": "https://www.youtube.com/watch?v=2XDUQabpl3k",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R2.1.1",
+      "R2.1.2"
+    ],
+    "source": "https://www.msjchem.com/reactivity-21-how-much-the-amount-of-chemical-change.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R2.1",
+    "hl": false,
+    "title": "How to determine the limiting reactant and excess reactant",
+    "url": "https://www.youtube.com/watch?v=zyJC98Dnhdc",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R2.1.3"
+    ],
+    "source": "https://www.msjchem.com/reactivity-21-how-much-the-amount-of-chemical-change.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R2.1",
+    "hl": false,
+    "title": "Theoretical yield and percent yield",
+    "url": "https://www.youtube.com/watch?v=oULP0fbmLkk",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R2.1.4"
+    ],
+    "source": "https://www.msjchem.com/reactivity-21-how-much-the-amount-of-chemical-change.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R2.1",
+    "hl": false,
+    "title": "To how calculate the atom economy for a reaction",
+    "url": "https://www.youtube.com/watch?v=Y9NVz7_9zw4",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R2.1.5"
+    ],
+    "source": "https://www.msjchem.com/reactivity-21-how-much-the-amount-of-chemical-change.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R2.1",
+    "hl": false,
+    "title": "MSJ Chem R2.1 SL/HL video lesson collection",
+    "url": "https://www.msjchem.com/reactivity-21-how-much-the-amount-of-chemical-change.html",
+    "provider": "MSJ Chem",
+    "kind": "collection",
+    "outcomes": [],
+    "source": "https://www.msjchem.com/reactivity-21-how-much-the-amount-of-chemical-change.html",
+    "verified": true,
+    "verification": "Creator-hosted topic collection retrieved 2026-11-07."
+  },
+  {
+    "topic": "R2.2",
+    "hl": false,
+    "title": "How to calculate the rate of reaction from a graph",
+    "url": "https://www.youtube.com/watch?v=PHp9EwlhrQQ",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R2.2.1"
+    ],
+    "source": "https://www.msjchem.com/reactivity-22-how-fast-the-rate-of-chemical-change.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R2.2",
+    "hl": false,
+    "title": "Rate of reaction graphs",
+    "url": "https://www.youtube.com/watch?v=sk6YqgStN2Q",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R2.2.1"
+    ],
+    "source": "https://www.msjchem.com/reactivity-22-how-fast-the-rate-of-chemical-change.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R2.2",
+    "hl": false,
+    "title": "The relationship betwen temperature (in K) and kinetic energy",
+    "url": "https://www.youtube.com/watch?v=r8w3G_8HR9A",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R2.2.2"
+    ],
+    "source": "https://www.msjchem.com/reactivity-22-how-fast-the-rate-of-chemical-change.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R2.2",
+    "hl": false,
+    "title": "Collision theory",
+    "url": "https://www.youtube.com/watch?v=79IaiDs-vMA",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R2.2.2"
+    ],
+    "source": "https://www.msjchem.com/reactivity-22-how-fast-the-rate-of-chemical-change.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R2.2",
+    "hl": false,
+    "title": "The factors that affect the rate of reaction",
+    "url": "https://www.youtube.com/watch?v=QihzM3jpZ5E",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R2.2.3"
+    ],
+    "source": "https://www.msjchem.com/reactivity-22-how-fast-the-rate-of-chemical-change.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R2.2",
+    "hl": false,
+    "title": "Activation energy",
+    "url": "https://www.youtube.com/watch?v=3zer_FL5XxY",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R2.2.4"
+    ],
+    "source": "https://www.msjchem.com/reactivity-22-how-fast-the-rate-of-chemical-change.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R2.2",
+    "hl": false,
+    "title": "The effect of a catalyst on the rate of reaction",
+    "url": "https://www.youtube.com/watch?v=nw8bg7vkezY",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R2.2.5"
+    ],
+    "source": "https://www.msjchem.com/reactivity-22-how-fast-the-rate-of-chemical-change.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R2.2",
+    "hl": false,
+    "title": "MSJ Chem R2.2 SL/HL video lesson collection",
+    "url": "https://www.msjchem.com/reactivity-22-how-fast-the-rate-of-chemical-change.html",
+    "provider": "MSJ Chem",
+    "kind": "collection",
+    "outcomes": [],
+    "source": "https://www.msjchem.com/reactivity-22-how-fast-the-rate-of-chemical-change.html",
+    "verified": true,
+    "verification": "Creator-hosted topic collection retrieved 2026-11-07."
+  },
+  {
+    "topic": "R2.2",
+    "hl": true,
+    "title": "Rate equations",
+    "url": "https://www.youtube.com/watch?v=mhk67nfZjro",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R2.2.6"
+    ],
+    "source": "https://www.msjchem.com/reactivity-22-how-fast-the-rate-of-chemical-change-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R2.2",
+    "hl": true,
+    "title": "Transition states and catalysts",
+    "url": "https://www.youtube.com/watch?v=mtVLCOgX03E",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R2.2.6"
+    ],
+    "source": "https://www.msjchem.com/reactivity-22-how-fast-the-rate-of-chemical-change-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R2.2",
+    "hl": true,
+    "title": "Energy level profiles for multi-step reactions",
+    "url": "https://www.youtube.com/watch?v=uzH0vLRlOms",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R2.2.7"
+    ],
+    "source": "https://www.msjchem.com/reactivity-22-how-fast-the-rate-of-chemical-change-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R2.2",
+    "hl": true,
+    "title": "Molecularity",
+    "url": "https://www.youtube.com/watch?v=oxw9HRLa_VQ",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R2.2.8"
+    ],
+    "source": "https://www.msjchem.com/reactivity-22-how-fast-the-rate-of-chemical-change-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R2.2",
+    "hl": true,
+    "title": "Reaction mechanisms",
+    "url": "https://www.youtube.com/watch?v=IAXqs2GVnao",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R2.2.9"
+    ],
+    "source": "https://www.msjchem.com/reactivity-22-how-fast-the-rate-of-chemical-change-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R2.2",
+    "hl": true,
+    "title": "Orders of reaction",
+    "url": "https://www.youtube.com/watch?v=aiCmeri6hz8",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R2.2.10"
+    ],
+    "source": "https://www.msjchem.com/reactivity-22-how-fast-the-rate-of-chemical-change-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R2.2",
+    "hl": true,
+    "title": "Graphical representations of zero, first and second-order reactions",
+    "url": "https://www.youtube.com/watch?v=SuZkqJ79BKk",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R2.2.10"
+    ],
+    "source": "https://www.msjchem.com/reactivity-22-how-fast-the-rate-of-chemical-change-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R2.2",
+    "hl": true,
+    "title": "Rate constant k",
+    "url": "https://www.youtube.com/watch?v=m4rcHmIJygE",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R2.2.11",
+      "R2.2.12"
+    ],
+    "source": "https://www.msjchem.com/reactivity-22-how-fast-the-rate-of-chemical-change-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R2.2",
+    "hl": true,
+    "title": "The Arrhenius equation",
+    "url": "https://www.youtube.com/watch?v=pTJaM0cUdu4",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R2.2.12"
+    ],
+    "source": "https://www.msjchem.com/reactivity-22-how-fast-the-rate-of-chemical-change-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R2.2",
+    "hl": true,
+    "title": "How to determine the activation energy for a reaction",
+    "url": "https://www.youtube.com/watch?v=jfbqDyoyGRk",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R2.2.13"
+    ],
+    "source": "https://www.msjchem.com/reactivity-22-how-fast-the-rate-of-chemical-change-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R2.2",
+    "hl": true,
+    "title": "MSJ Chem R2.2 HL video lesson collection",
+    "url": "https://www.msjchem.com/reactivity-22-how-fast-the-rate-of-chemical-change-hl.html",
+    "provider": "MSJ Chem",
+    "kind": "collection",
+    "outcomes": [],
+    "source": "https://www.msjchem.com/reactivity-22-how-fast-the-rate-of-chemical-change-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted topic collection retrieved 2026-11-07."
+  },
+  {
+    "topic": "R2.3",
+    "hl": false,
+    "title": "Physical equilibrium",
+    "url": "https://www.youtube.com/watch?v=YXYtsVXgvgA",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R2.3.1"
+    ],
+    "source": "https://www.msjchem.com/reactivity-23-how-far-the-extent-of-chemical-change.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R2.3",
+    "hl": false,
+    "title": "Chemical equilibrium",
+    "url": "https://www.youtube.com/watch?v=vjaLbjzQvWQ",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R2.3.1"
+    ],
+    "source": "https://www.msjchem.com/reactivity-23-how-far-the-extent-of-chemical-change.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R2.3",
+    "hl": false,
+    "title": "The equilibrium constant, K c",
+    "url": "https://www.youtube.com/watch?v=8C0M4g1oF3M",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R2.3.2"
+    ],
+    "source": "https://www.msjchem.com/reactivity-23-how-far-the-extent-of-chemical-change.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R2.3",
+    "hl": false,
+    "title": "The effect of changing concentrations on the equilibrium position",
+    "url": "https://www.youtube.com/watch?v=39af-wHknDM",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R2.3.4"
+    ],
+    "source": "https://www.msjchem.com/reactivity-23-how-far-the-extent-of-chemical-change.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R2.3",
+    "hl": false,
+    "title": "The effect of changing pressure on the equilibrium position",
+    "url": "https://www.youtube.com/watch?v=R9i7YQh7ktM",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R2.3.4"
+    ],
+    "source": "https://www.msjchem.com/reactivity-23-how-far-the-extent-of-chemical-change.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R2.3",
+    "hl": false,
+    "title": "The effect of changing temperature on the equilibrium position",
+    "url": "https://www.youtube.com/watch?v=rRgqQ1sBBYc",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R2.3.4"
+    ],
+    "source": "https://www.msjchem.com/reactivity-23-how-far-the-extent-of-chemical-change.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R2.3",
+    "hl": false,
+    "title": "MSJ Chem R2.3 SL/HL video lesson collection",
+    "url": "https://www.msjchem.com/reactivity-23-how-far-the-extent-of-chemical-change.html",
+    "provider": "MSJ Chem",
+    "kind": "collection",
+    "outcomes": [],
+    "source": "https://www.msjchem.com/reactivity-23-how-far-the-extent-of-chemical-change.html",
+    "verified": true,
+    "verification": "Creator-hosted topic collection retrieved 2026-11-07."
+  },
+  {
+    "topic": "R2.3",
+    "hl": true,
+    "title": "The reaction quotient Q",
+    "url": "https://www.youtube.com/watch?v=Ll3BkNVg7ZQ",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R2.3.5"
+    ],
+    "source": "https://www.msjchem.com/reactivity-23-how-far-the-extent-of-chemical-change-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R2.3",
+    "hl": true,
+    "title": "Calculations involving the composition of an equilibrium mixture",
+    "url": "https://www.youtube.com/watch?v=ORnhV56L6yQ",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R2.3.6"
+    ],
+    "source": "https://www.msjchem.com/reactivity-23-how-far-the-extent-of-chemical-change-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R2.3",
+    "hl": true,
+    "title": "Δ G and equilibrium",
+    "url": "https://www.youtube.com/watch?v=eFUD3G1MEcs",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R2.3.7"
+    ],
+    "source": "https://www.msjchem.com/reactivity-23-how-far-the-extent-of-chemical-change-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R2.3",
+    "hl": true,
+    "title": "MSJ Chem R2.3 HL video lesson collection",
+    "url": "https://www.msjchem.com/reactivity-23-how-far-the-extent-of-chemical-change-hl.html",
+    "provider": "MSJ Chem",
+    "kind": "collection",
+    "outcomes": [],
+    "source": "https://www.msjchem.com/reactivity-23-how-far-the-extent-of-chemical-change-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted topic collection retrieved 2026-11-07."
+  },
+  {
+    "topic": "R3.1",
+    "hl": false,
+    "title": "Brønsted–Lowry acids and bases",
+    "url": "https://www.youtube.com/watch?v=uD0XltT9XSQ",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R3.1.1"
+    ],
+    "source": "https://www.msjchem.com/reactivity-31-proton-transfer-reactions.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R3.1",
+    "hl": false,
+    "title": "Conjugate acid-bases pairs",
+    "url": "https://www.youtube.com/watch?v=o5RnwTNbDPc",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R3.1.2"
+    ],
+    "source": "https://www.msjchem.com/reactivity-31-proton-transfer-reactions.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R3.1",
+    "hl": false,
+    "title": "Amphiprotic species",
+    "url": "https://www.youtube.com/watch?v=6TM2t-XNYvQ",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R3.1.3"
+    ],
+    "source": "https://www.msjchem.com/reactivity-31-proton-transfer-reactions.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R3.1",
+    "hl": false,
+    "title": "The pH scale",
+    "url": "https://www.youtube.com/watch?v=0RInKTCAXTk",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R3.1.4"
+    ],
+    "source": "https://www.msjchem.com/reactivity-31-proton-transfer-reactions.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R3.1",
+    "hl": false,
+    "title": "The ionic product constant of water, K w",
+    "url": "https://www.youtube.com/watch?v=OXkqQa1rswI",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R3.1.5"
+    ],
+    "source": "https://www.msjchem.com/reactivity-31-proton-transfer-reactions.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R3.1",
+    "hl": false,
+    "title": "Strong and weak acids and bases",
+    "url": "https://www.youtube.com/watch?v=ztXVkp4K0J8",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R3.1.6"
+    ],
+    "source": "https://www.msjchem.com/reactivity-31-proton-transfer-reactions.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R3.1",
+    "hl": false,
+    "title": "How to distinguish between strong and weak acids and bases",
+    "url": "https://www.youtube.com/watch?v=aJkeCyn8hdE",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R3.1.6"
+    ],
+    "source": "https://www.msjchem.com/reactivity-31-proton-transfer-reactions.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R3.1",
+    "hl": false,
+    "title": "The reactions of acids and bases",
+    "url": "https://www.youtube.com/watch?v=LiVJqMEzx1M",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R3.1.7"
+    ],
+    "source": "https://www.msjchem.com/reactivity-31-proton-transfer-reactions.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R3.1",
+    "hl": false,
+    "title": "MSJ Chem R3.1 SL/HL video lesson collection",
+    "url": "https://www.msjchem.com/reactivity-31-proton-transfer-reactions.html",
+    "provider": "MSJ Chem",
+    "kind": "collection",
+    "outcomes": [],
+    "source": "https://www.msjchem.com/reactivity-31-proton-transfer-reactions.html",
+    "verified": true,
+    "verification": "Creator-hosted topic collection retrieved 2026-11-07."
+  },
+  {
+    "topic": "R3.1",
+    "hl": true,
+    "title": "The pOH scale",
+    "url": "https://www.youtube.com/watch?v=k_pRdJzuP7g",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [],
+    "source": "https://www.msjchem.com/reactivity-31-proton-transfer-reactions-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R3.1",
+    "hl": true,
+    "title": "K a , K b , p K a and p K b",
+    "url": "https://www.youtube.com/watch?v=5ZfdNWSCYxU",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R3.1.10"
+    ],
+    "source": "https://www.msjchem.com/reactivity-31-proton-transfer-reactions-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R3.1",
+    "hl": true,
+    "title": "How to solve problems involving K a , K b and K w",
+    "url": "https://www.youtube.com/watch?v=mnKPSxm_Q40",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R3.1.11"
+    ],
+    "source": "https://www.msjchem.com/reactivity-31-proton-transfer-reactions-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R3.1",
+    "hl": true,
+    "title": "Salt hydrolysis",
+    "url": "https://www.youtube.com/watch?v=nAqWpkdudI4",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R3.1.12"
+    ],
+    "source": "https://www.msjchem.com/reactivity-31-proton-transfer-reactions-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R3.1",
+    "hl": true,
+    "title": "PH curves",
+    "url": "https://www.youtube.com/watch?v=JvzW6BwTRmM",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R3.1.13"
+    ],
+    "source": "https://www.msjchem.com/reactivity-31-proton-transfer-reactions-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R3.1",
+    "hl": true,
+    "title": "Acid-base indicators",
+    "url": "https://www.youtube.com/watch?v=URZNvfOnPkM",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R3.1.14"
+    ],
+    "source": "https://www.msjchem.com/reactivity-31-proton-transfer-reactions-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R3.1",
+    "hl": true,
+    "title": "How to choose an indicator for an acid-base titration",
+    "url": "https://www.youtube.com/watch?v=ntlyrj1wfLQ",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R3.1.15"
+    ],
+    "source": "https://www.msjchem.com/reactivity-31-proton-transfer-reactions-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R3.1",
+    "hl": true,
+    "title": "Buffer solutions",
+    "url": "https://www.youtube.com/watch?v=k20B6RXmYc0",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R3.1.16"
+    ],
+    "source": "https://www.msjchem.com/reactivity-31-proton-transfer-reactions-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R3.1",
+    "hl": true,
+    "title": "How to calculate the pH of a buffer solution",
+    "url": "https://www.youtube.com/watch?v=x3cXBO3GZMk",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R3.1.17"
+    ],
+    "source": "https://www.msjchem.com/reactivity-31-proton-transfer-reactions-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R3.1",
+    "hl": true,
+    "title": "The factors that affect the pH of a buffer solution",
+    "url": "https://www.youtube.com/watch?v=zksUYjdNDq8",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R3.1.17"
+    ],
+    "source": "https://www.msjchem.com/reactivity-31-proton-transfer-reactions-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R3.1",
+    "hl": true,
+    "title": "MSJ Chem R3.1 HL video lesson collection",
+    "url": "https://www.msjchem.com/reactivity-31-proton-transfer-reactions-hl.html",
+    "provider": "MSJ Chem",
+    "kind": "collection",
+    "outcomes": [],
+    "source": "https://www.msjchem.com/reactivity-31-proton-transfer-reactions-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted topic collection retrieved 2026-11-07."
+  },
+  {
+    "topic": "R3.2",
+    "hl": false,
+    "title": "The definitions of oxidation and reduction",
+    "url": "https://www.youtube.com/watch?v=prJnSCH5MYw",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R3.2.1"
+    ],
+    "source": "https://www.msjchem.com/reactivity-32-electron-transfer-reactions.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R3.2",
+    "hl": false,
+    "title": "How to balance redox equations in acidic solution",
+    "url": "https://www.youtube.com/watch?v=EirF_NWnEhY",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R3.2.2"
+    ],
+    "source": "https://www.msjchem.com/reactivity-32-electron-transfer-reactions.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R3.2",
+    "hl": false,
+    "title": "Displacement reactions",
+    "url": "https://www.youtube.com/watch?v=ZiSLSjFnlYM",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R3.2.3"
+    ],
+    "source": "https://www.msjchem.com/reactivity-32-electron-transfer-reactions.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R3.2",
+    "hl": false,
+    "title": "Electrochemical cells",
+    "url": "https://www.youtube.com/watch?v=vBqRskHSghg",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R3.2.5"
+    ],
+    "source": "https://www.msjchem.com/reactivity-32-electron-transfer-reactions.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R3.2",
+    "hl": false,
+    "title": "Voltaic cells",
+    "url": "https://www.youtube.com/watch?v=7j-3_a2LuYg",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R3.2.6"
+    ],
+    "source": "https://www.msjchem.com/reactivity-32-electron-transfer-reactions.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R3.2",
+    "hl": false,
+    "title": "Secondary cells",
+    "url": "https://www.youtube.com/watch?v=ckKgSpgAT3k",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R3.2.7"
+    ],
+    "source": "https://www.msjchem.com/reactivity-32-electron-transfer-reactions.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R3.2",
+    "hl": false,
+    "title": "Electrolytic cells",
+    "url": "https://www.youtube.com/watch?v=DHWkr8b_aiE",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R3.2.8"
+    ],
+    "source": "https://www.msjchem.com/reactivity-32-electron-transfer-reactions.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R3.2",
+    "hl": false,
+    "title": "The reactions of the alcohols",
+    "url": "https://www.youtube.com/watch?v=nHR1cE1sOLw",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R3.2.9"
+    ],
+    "source": "https://www.msjchem.com/reactivity-32-electron-transfer-reactions.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R3.2",
+    "hl": false,
+    "title": "The reduction of carboxylic acids and ketones",
+    "url": "https://www.youtube.com/watch?v=98IFsw-khFM",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R3.2.10"
+    ],
+    "source": "https://www.msjchem.com/reactivity-32-electron-transfer-reactions.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R3.2",
+    "hl": false,
+    "title": "MSJ Chem R3.2 SL/HL video lesson collection",
+    "url": "https://www.msjchem.com/reactivity-32-electron-transfer-reactions.html",
+    "provider": "MSJ Chem",
+    "kind": "collection",
+    "outcomes": [],
+    "source": "https://www.msjchem.com/reactivity-32-electron-transfer-reactions.html",
+    "verified": true,
+    "verification": "Creator-hosted topic collection retrieved 2026-11-07."
+  },
+  {
+    "topic": "R3.2",
+    "hl": true,
+    "title": "Standard electrode potentials and the hydrogen half-cell",
+    "url": "https://www.youtube.com/watch?v=oEeCqOH2uuU",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R3.2.12"
+    ],
+    "source": "https://www.msjchem.com/reactivity-32-electron-transfer-reactions-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R3.2",
+    "hl": true,
+    "title": "How to calculate the cell potential",
+    "url": "https://www.youtube.com/watch?v=gCsBGy768fk",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R3.2.13"
+    ],
+    "source": "https://www.msjchem.com/reactivity-32-electron-transfer-reactions-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R3.2",
+    "hl": true,
+    "title": "How to calculate Δ G for a voltaic cell",
+    "url": "https://www.youtube.com/watch?v=0sy001WPn_c",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R3.2.14"
+    ],
+    "source": "https://www.msjchem.com/reactivity-32-electron-transfer-reactions-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R3.2",
+    "hl": true,
+    "title": "Electrolysis of aqueous solutions",
+    "url": "https://www.youtube.com/watch?v=qTxVSeWGU0Y",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R3.2.15"
+    ],
+    "source": "https://www.msjchem.com/reactivity-32-electron-transfer-reactions-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R3.2",
+    "hl": true,
+    "title": "Electroplating",
+    "url": "https://www.youtube.com/watch?v=w6iAO_ldIPg",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R3.2.16"
+    ],
+    "source": "https://www.msjchem.com/reactivity-32-electron-transfer-reactions-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R3.2",
+    "hl": true,
+    "title": "MSJ Chem R3.2 HL video lesson collection",
+    "url": "https://www.msjchem.com/reactivity-32-electron-transfer-reactions-hl.html",
+    "provider": "MSJ Chem",
+    "kind": "collection",
+    "outcomes": [],
+    "source": "https://www.msjchem.com/reactivity-32-electron-transfer-reactions-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted topic collection retrieved 2026-11-07."
+  },
+  {
+    "topic": "R3.3",
+    "hl": false,
+    "title": "Homolytic bond fission",
+    "url": "https://www.youtube.com/watch?v=Eazaf_ZHLWk",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R3.3.1",
+      "R3.3.2"
+    ],
+    "source": "https://www.msjchem.com/reactivity-33-electron-sharing-reactions.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R3.3",
+    "hl": false,
+    "title": "MSJ Chem R3.3 SL/HL video lesson collection",
+    "url": "https://www.msjchem.com/reactivity-33-electron-sharing-reactions.html",
+    "provider": "MSJ Chem",
+    "kind": "collection",
+    "outcomes": [],
+    "source": "https://www.msjchem.com/reactivity-33-electron-sharing-reactions.html",
+    "verified": true,
+    "verification": "Creator-hosted topic collection retrieved 2026-11-07."
+  },
+  {
+    "topic": "R3.4",
+    "hl": false,
+    "title": "Nucleophiles and electrophiles",
+    "url": "https://www.youtube.com/watch?v=l0-kpQ9kVZE",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R3.4.1",
+      "R3.4.4"
+    ],
+    "source": "https://www.msjchem.com/reactivity-34-electron-pair-sharing-reactions.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R3.4",
+    "hl": false,
+    "title": "Nucleophilic substitution reactions of the halogenoalkanes",
+    "url": "https://www.youtube.com/watch?v=TxE38Q9iYqs",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R3.4.2"
+    ],
+    "source": "https://www.msjchem.com/reactivity-34-electron-pair-sharing-reactions.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R3.4",
+    "hl": false,
+    "title": "Heterolytic bond fission",
+    "url": "https://www.youtube.com/watch?v=dHOk66nRaqY",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R3.4.3"
+    ],
+    "source": "https://www.msjchem.com/reactivity-34-electron-pair-sharing-reactions.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R3.4",
+    "hl": false,
+    "title": "The addition reactions of the alkenes",
+    "url": "https://www.youtube.com/watch?v=qUxi1qHUAPA",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R3.4.5"
+    ],
+    "source": "https://www.msjchem.com/reactivity-34-electron-pair-sharing-reactions.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R3.4",
+    "hl": false,
+    "title": "MSJ Chem R3.4 SL/HL video lesson collection",
+    "url": "https://www.msjchem.com/reactivity-34-electron-pair-sharing-reactions.html",
+    "provider": "MSJ Chem",
+    "kind": "collection",
+    "outcomes": [],
+    "source": "https://www.msjchem.com/reactivity-34-electron-pair-sharing-reactions.html",
+    "verified": true,
+    "verification": "Creator-hosted topic collection retrieved 2026-11-07."
+  },
+  {
+    "topic": "R3.4",
+    "hl": true,
+    "title": "The Lewis theory of acids and bases",
+    "url": "https://www.youtube.com/watch?v=nsNtqgrqNg8",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R3.4.6",
+      "R3.4.7"
+    ],
+    "source": "https://www.msjchem.com/reactivity-34-electron-pair-sharing-reactions-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R3.4",
+    "hl": true,
+    "title": "Leweis vs bronsted",
+    "url": "https://www.youtube.com/watch?v=uEEWge_8UhY",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R3.4.6",
+      "R3.4.7"
+    ],
+    "source": "https://www.msjchem.com/reactivity-34-electron-pair-sharing-reactions-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R3.4",
+    "hl": true,
+    "title": "The formation and structure of complex ions",
+    "url": "https://www.youtube.com/watch?v=0xlzyIcAqgs",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R3.4.8"
+    ],
+    "source": "https://www.msjchem.com/reactivity-34-electron-pair-sharing-reactions-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R3.4",
+    "hl": true,
+    "title": "Ligands new",
+    "url": "https://www.youtube.com/watch?v=o0Cg4JyDyKg",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R3.4.8"
+    ],
+    "source": "https://www.msjchem.com/reactivity-34-electron-pair-sharing-reactions-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R3.4",
+    "hl": true,
+    "title": "How to deduce the charge on a complex ion",
+    "url": "https://www.youtube.com/watch?v=X5Zuz-u8o7s",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R3.4.8"
+    ],
+    "source": "https://www.msjchem.com/reactivity-34-electron-pair-sharing-reactions-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R3.4",
+    "hl": true,
+    "title": "The SN1 and SN2 mechanisms",
+    "url": "https://www.youtube.com/watch?v=ZkmLw-K_Nw0",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R3.4.9"
+    ],
+    "source": "https://www.msjchem.com/reactivity-34-electron-pair-sharing-reactions-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R3.4",
+    "hl": true,
+    "title": "Sn1 and sn2 compairson",
+    "url": "https://www.youtube.com/watch?v=axO_MSMwXqA",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R3.4.9"
+    ],
+    "source": "https://www.msjchem.com/reactivity-34-electron-pair-sharing-reactions-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R3.4",
+    "hl": true,
+    "title": "Stereochemistry of nucleophilic substitution reactions",
+    "url": "https://www.youtube.com/watch?v=2czScyFDHj0",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R3.4.9"
+    ],
+    "source": "https://www.msjchem.com/reactivity-34-electron-pair-sharing-reactions-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R3.4",
+    "hl": true,
+    "title": "Electrophilic addition reactions of the alkenes",
+    "url": "https://www.youtube.com/watch?v=ixlkEoYC-jQ",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R3.4.11"
+    ],
+    "source": "https://www.msjchem.com/reactivity-34-electron-pair-sharing-reactions-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R3.4",
+    "hl": true,
+    "title": "Markovnikov's rule",
+    "url": "https://www.youtube.com/watch?v=Ps0i0BemiAg",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R3.4.12"
+    ],
+    "source": "https://www.msjchem.com/reactivity-34-electron-pair-sharing-reactions-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R3.4",
+    "hl": true,
+    "title": "The nitration of benzene",
+    "url": "https://www.youtube.com/watch?v=B_yka9k5gfY",
+    "provider": "MSJ Chem",
+    "kind": "video",
+    "outcomes": [
+      "R3.4.13"
+    ],
+    "source": "https://www.msjchem.com/reactivity-34-electron-pair-sharing-reactions-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted page and matching YouTube link retrieved 2026-11-07; playback not tested."
+  },
+  {
+    "topic": "R3.4",
+    "hl": true,
+    "title": "MSJ Chem R3.4 HL video lesson collection",
+    "url": "https://www.msjchem.com/reactivity-34-electron-pair-sharing-reactions-hl.html",
+    "provider": "MSJ Chem",
+    "kind": "collection",
+    "outcomes": [],
+    "source": "https://www.msjchem.com/reactivity-34-electron-pair-sharing-reactions-hl.html",
+    "verified": true,
+    "verification": "Creator-hosted topic collection retrieved 2026-11-07."
+  }
+]

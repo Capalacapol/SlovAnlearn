@@ -22,17 +22,3 @@ const CALC_GUIDES={
  integral:{name:'Definite integration',ti84:['Use MATH → fnInt on the home screen with expression, X, lower bound and upper bound. Example fnInt(2X,X,1,3).','On a graph, 2nd TRACE → ∫f(x)dx also evaluates between chosen bounds.','For geometric area split at zeros or curve intersections if the integrand changes sign.','State the integrand, bounds, value and units. The 2029 SL trapezoidal-rule topic is not included.'],nspire:['On a Calculator page use menu → Calculus → Numerical Integral, or the definite-integral template.','Supply variable, lower/upper bounds and the integrand; a non-CAS CX II evaluates a definite integral numerically.','For area between curves integrate upper minus lower and split where the order changes.','Show the integral in your written method, rather than just a calculator result.'],video:'Calculator'}
 };
 const TI_VIDEOS={ti84:'https://education.ti.com/en/product-resources/product-video-tutorials/ti-84plus-ce-tutorials',nspire:'https://education.ti.com/en/product-resources/product-video-tutorials/ti-nspire-cx-tutorials'};
-const MATH_VIDEO_COLLECTIONS={
- A:{label:'Khan Academy · Functions and algebra video lessons',url:'https://www.khanacademy.org/math/algebra'},
- B:{label:'Khan Academy · Algebra and sequences video lessons',url:'https://www.khanacademy.org/math/algebra'},
- C:{label:'Khan Academy · Geometry and trigonometry video lessons',url:'https://www.khanacademy.org/math/geometry'},
- D:{label:'Khan Academy · Statistics and probability video lessons',url:'https://www.khanacademy.org/math/statistics-probability'},
- E:{label:'Khan Academy · Calculus video lessons',url:'https://www.khanacademy.org/math/calculus-1'}
-};
-const MATH_DIRECT_VIDEOS={
- 'A3.2':{label:'Khan Academy · Intro to exponential functions',url:'https://www.khanacademy.org/v/exponential-growth'},
- 'B2.1':{label:'Khan Academy · Intro to arithmetic sequences',url:'https://en.khanacademy.org/math/algebra/sequences/v/arithmetic-sequences'},
- 'B4.1':{label:'Khan Academy · Intro to exponential functions',url:'https://www.khanacademy.org/v/exponential-growth'},
- 'D4.1':{label:'Khan Academy · Random variables',url:'https://www.khanacademy.org/v/random-variables'},
- 'D4.2':{label:'Khan Academy · Visualizing a binomial distribution',url:'https://www.khanacademy.org/math/statistics-probability/random-variables-stats-library/binomial-random-variables/v/visualizing-a-binomial-distribution'}
-};
